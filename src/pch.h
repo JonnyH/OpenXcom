@@ -117,7 +117,7 @@
 #include "./Engine/Music.h"
 #include "./Engine/Language.h"
 #include "./Engine/ShaderDrawHelper.h"
-#include "./dirent.h"
+#include "./dirent_local.h"
 #include "./Battlescape/PathfindingNode.h"
 #include "./Battlescape/PrimeGrenadeState.h"
 #include "./Battlescape/UnitInfoState.h"

@@ -209,7 +209,7 @@ openxcom_SOURCES = \
 	src/Battlescape/UnitWalkBState.h \
 	src/Battlescape/WarningMessage.cpp \
 	src/Battlescape/WarningMessage.h \
-	src/dirent.h \
+	src/dirent_local.h \
 	src/Engine/Adlib/adlplayer.cpp \
 	src/Engine/Adlib/adlplayer.h \
 	src/Engine/Adlib/fmopl.cpp \
