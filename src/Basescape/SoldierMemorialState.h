@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SOLDIERMEMORIALSTATE_H
 #define OPENXCOM_SOLDIERMEMORIALSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

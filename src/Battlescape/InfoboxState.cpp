@@ -18,12 +18,12 @@
  */
 #include "InfoboxState.h"
 #include <string>
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Timer.h"
-#include "../Interface/Text.h"
-#include "../Interface/Frame.h"
-#include "../Engine/Action.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/Timer.h"
+#include "Interface/Text.h"
+#include "Interface/Frame.h"
+#include "Engine/Action.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MINIMAPVIEW_H
 #define OPENXCOM_MINIMAPVIEW_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 #include "Position.h"
 
 namespace OpenXcom

@@ -17,9 +17,9 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "BattlescapeMessage.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Engine/Palette.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Engine/Palette.h"
 
 namespace OpenXcom
 {

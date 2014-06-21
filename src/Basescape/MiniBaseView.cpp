@@ -18,13 +18,13 @@
  */
 #include "MiniBaseView.h"
 #include <cmath>
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Action.h"
-#include "../Savegame/Base.h"
-#include "../Savegame/BaseFacility.h"
-#include "../Ruleset/RuleBaseFacility.h"
-#include "../Savegame/Craft.h"
-#include "../Engine/Palette.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Action.h"
+#include "Savegame/Base.h"
+#include "Savegame/BaseFacility.h"
+#include "Ruleset/RuleBaseFacility.h"
+#include "Savegame/Craft.h"
+#include "Engine/Palette.h"
 
 namespace OpenXcom
 {

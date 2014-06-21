@@ -21,8 +21,8 @@
 #include "Soldier.h"
 #include "Craft.h"
 #include "ItemContainer.h"
-#include "../Engine/Language.h"
-#include "../Ruleset/Ruleset.h"
+#include "Engine/Language.h"
+#include "Ruleset/Ruleset.h"
 
 namespace OpenXcom
 {

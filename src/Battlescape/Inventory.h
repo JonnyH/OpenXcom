@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_INVENTORY_H
 #define OPENXCOM_INVENTORY_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 #include <map>
 #include <string>
 

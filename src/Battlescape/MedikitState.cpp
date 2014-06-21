@@ -18,21 +18,21 @@
  */
 #include "MedikitState.h"
 #include "MedikitView.h"
-#include "../Engine/InteractiveSurface.h"
-#include "../Engine/Game.h"
-#include "../Engine/Language.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Action.h"
-#include "../Engine/Palette.h"
-#include "../Interface/Text.h"
-#include "../Engine/Screen.h"
-#include "../Savegame/BattleItem.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Ruleset/RuleItem.h"
-#include "../Resource/ResourcePack.h"
+#include "Engine/InteractiveSurface.h"
+#include "Engine/Game.h"
+#include "Engine/Language.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Action.h"
+#include "Engine/Palette.h"
+#include "Interface/Text.h"
+#include "Engine/Screen.h"
+#include "Savegame/BattleItem.h"
+#include "Savegame/BattleUnit.h"
+#include "Ruleset/RuleItem.h"
+#include "Resource/ResourcePack.h"
 #include <iostream>
 #include <sstream>
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

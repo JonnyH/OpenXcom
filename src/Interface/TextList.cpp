@@ -20,10 +20,10 @@
 #include <cstdarg>
 #include <cmath>
 #include <algorithm>
-#include "../Engine/Action.h"
-#include "../Engine/Font.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Options.h"
+#include "Engine/Action.h"
+#include "Engine/Font.h"
+#include "Engine/Palette.h"
+#include "Engine/Options.h"
 #include "ArrowButton.h"
 #include "ComboBox.h"
 #include "ScrollBar.h"

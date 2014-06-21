@@ -18,16 +18,16 @@
  */
 #include "LowFuelState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Savegame/Craft.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Savegame/Craft.h"
 #include "GeoscapeState.h"
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

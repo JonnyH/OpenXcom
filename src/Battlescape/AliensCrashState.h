@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ALIENSDIEDSTATE_H
 #define OPENXCOM_ALIENSDIEDSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

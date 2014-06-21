@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_PLACEFACILITYSTATE_H
 #define OPENXCOM_PLACEFACILITYSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

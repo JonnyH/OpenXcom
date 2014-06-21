@@ -21,7 +21,7 @@
 
 #include <vector>
 #include <map>
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 #include "Text.h"
 
 namespace OpenXcom

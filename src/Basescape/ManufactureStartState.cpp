@@ -17,20 +17,20 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ManufactureStartState.h"
-#include "../Interface/Window.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Engine/Game.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Options.h"
-#include "../Resource/ResourcePack.h"
-#include "../Ruleset/RuleManufacture.h"
-#include "../Savegame/Base.h"
-#include "../Savegame/ItemContainer.h"
+#include "Interface/Window.h"
+#include "Interface/TextButton.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Engine/Game.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Engine/Options.h"
+#include "Resource/ResourcePack.h"
+#include "Ruleset/RuleManufacture.h"
+#include "Savegame/Base.h"
+#include "Savegame/ItemContainer.h"
 #include "ManufactureInfoState.h"
-#include "../Savegame/SavedGame.h"
+#include "Savegame/SavedGame.h"
 #include <sstream>
 
 namespace OpenXcom

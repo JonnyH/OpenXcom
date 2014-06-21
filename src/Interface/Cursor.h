@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CURSOR_H
 #define OPENXCOM_CURSOR_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

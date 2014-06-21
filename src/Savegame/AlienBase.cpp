@@ -18,7 +18,7 @@
  */
 #include "AlienBase.h"
 #include <sstream>
-#include "../Engine/Language.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

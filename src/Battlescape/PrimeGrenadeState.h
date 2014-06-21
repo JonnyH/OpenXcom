@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_PRIMEGRENADESTATE_H
 #define OPENXCOM_PRIMEGRENADESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SCROLLBAR_H
 #define OPENXCOM_SCROLLBAR_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

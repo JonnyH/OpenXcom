@@ -20,7 +20,7 @@
 #ifndef OPENXCOM_UFOPAEDIASTARTSTATE_H
 #define OPENXCOM_UFOPAEDIASTARTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <string>
 
 namespace OpenXcom

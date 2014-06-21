@@ -18,18 +18,18 @@
  */
 #include <assert.h>
 #include "ProductionCompleteState.h"
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
 #include "GeoscapeState.h"
-#include "../Engine/Options.h"
-#include "../Basescape/BasescapeState.h"
-#include "../Basescape/ManufactureState.h"
-#include "../Savegame/Base.h"
+#include "Engine/Options.h"
+#include "Basescape/BasescapeState.h"
+#include "Basescape/ManufactureState.h"
+#include "Savegame/Base.h"
 
 namespace OpenXcom
 {

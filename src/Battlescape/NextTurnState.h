@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NEXTTURNSTATE_H
 #define OPENXCOM_NEXTTURNSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

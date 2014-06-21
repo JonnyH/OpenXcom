@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Region.h"
-#include "../Ruleset/RuleRegion.h"
+#include "Ruleset/RuleRegion.h"
 
 namespace OpenXcom
 {

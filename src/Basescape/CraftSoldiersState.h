@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CRAFTSOLDIERSSTATE_H
 #define OPENXCOM_CRAFTSOLDIERSSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_UNITSPRITE_H
 #define OPENXCOM_UNITSPRITE_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

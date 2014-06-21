@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_DISMANTLEFACILITYSTATE_H
 #define OPENXCOM_DISMANTLEFACILITYSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

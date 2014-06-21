@@ -23,7 +23,7 @@
 #include <vector>
 #include <string>
 #include <yaml-cpp/yaml.h>
-#include "../Savegame/GameTime.h"
+#include "Savegame/GameTime.h"
 
 namespace OpenXcom
 {

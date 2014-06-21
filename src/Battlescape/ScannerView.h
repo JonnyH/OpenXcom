@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SCANNERVIEW_H
 #define OPENXCOM_SCANNERVIEW_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

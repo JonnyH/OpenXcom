@@ -21,7 +21,7 @@
 
 #include <string>
 #include <vector>
-#include "../Savegame/Soldier.h"
+#include "Savegame/Soldier.h"
 
 namespace OpenXcom
 {

@@ -24,7 +24,7 @@
 #include <string>
 #include <yaml-cpp/yaml.h>
 #include "LocalizedText.h"
-#include "../Savegame/Soldier.h"
+#include "Savegame/Soldier.h"
 
 namespace OpenXcom
 {

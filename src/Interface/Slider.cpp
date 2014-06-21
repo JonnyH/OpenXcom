@@ -17,12 +17,12 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Slider.h"
-#include "../fmath.h"
+#include "fmath.h"
 #include <algorithm>
-#include "../Engine/Action.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Text.h"
-#include "../Interface/Frame.h"
+#include "Engine/Action.h"
+#include "Interface/TextButton.h"
+#include "Interface/Text.h"
+#include "Interface/Frame.h"
 
 namespace OpenXcom
 {

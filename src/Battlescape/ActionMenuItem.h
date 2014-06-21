@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ACTIONMENUITEM_H
 #define OPENXCOM_ACTIONMENUITEM_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 #include "BattlescapeGame.h"
 
 namespace OpenXcom

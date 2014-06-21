@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_INTROSTATE_H
 #define OPENXCOM_INTROSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

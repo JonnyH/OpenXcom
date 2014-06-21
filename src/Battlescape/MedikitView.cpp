@@ -17,14 +17,14 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "MedikitView.h"
-#include "../Engine/Game.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Action.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Engine/SurfaceSet.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Action.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Savegame/BattleUnit.h"
+#include "Interface/Text.h"
 #include <iostream>
 
 namespace OpenXcom

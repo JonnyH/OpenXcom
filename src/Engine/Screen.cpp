@@ -21,7 +21,7 @@
 #include <cmath>
 #include <iomanip>
 #include <limits.h>
-#include "../lodepng.h"
+#include "lodepng.h"
 #include "Exception.h"
 #include "Surface.h"
 #include "Logger.h"

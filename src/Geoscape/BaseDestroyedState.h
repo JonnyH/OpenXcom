@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BASEDESTROYEDSTATE_H
 #define OPENXCOM_BASEDESTROYEDSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

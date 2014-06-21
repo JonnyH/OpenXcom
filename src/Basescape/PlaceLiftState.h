@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_PLACELIFTSTATE_H
 #define OPENXCOM_PLACELIFTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

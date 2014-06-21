@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_IMAGEBUTTON_H
 #define OPENXCOM_IMAGEBUTTON_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

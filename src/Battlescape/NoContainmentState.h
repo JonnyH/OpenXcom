@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NOCONTAINMENTSTATE_H
 #define OPENXCOM_NOCONTAINMENTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

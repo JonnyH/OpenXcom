@@ -22,14 +22,14 @@
 #include <math.h>
 #include <sstream>
 #include <algorithm>
-#include "../fmath.h"
+#include "fmath.h"
 #include "Craft.h"
 #include "AlienMission.h"
-#include "../Engine/Exception.h"
-#include "../Engine/Language.h"
-#include "../Ruleset/Ruleset.h"
-#include "../Ruleset/RuleUfo.h"
-#include "../Ruleset/UfoTrajectory.h"
+#include "Engine/Exception.h"
+#include "Engine/Language.h"
+#include "Ruleset/Ruleset.h"
+#include "Ruleset/RuleUfo.h"
+#include "Ruleset/UfoTrajectory.h"
 #include "SavedGame.h"
 #include "Waypoint.h"
 

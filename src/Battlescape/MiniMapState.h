@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MINIMAP_H
 #define OPENXCOM_MINIMAP_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SCANNERSTATE_H
 #define OPENXCOM_SCANNERSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_OPTIONSCONFIRMSTATE_H
 #define OPENXCOM_OPTIONSCONFIRMSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "OptionsBaseState.h"
 
 namespace OpenXcom

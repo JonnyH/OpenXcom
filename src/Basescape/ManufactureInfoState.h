@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MANUFACTUREINFOSTATE_H
 #define OPENXCOM_MANUFACTUREINFOSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ALLOCATEPSITRAININGSTATE_H
 #define OPENXCOM_ALLOCATEPSITRAININGSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -18,19 +18,19 @@
  */
 #include <algorithm>
 #include "NewPossibleResearchState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Language.h"
-#include "../Resource/ResourcePack.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Ruleset/Ruleset.h"
-#include "../Ruleset/RuleResearch.h"
-#include "../Basescape/ResearchState.h"
-#include "../Savegame/SavedGame.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/Language.h"
+#include "Resource/ResourcePack.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Ruleset/Ruleset.h"
+#include "Ruleset/RuleResearch.h"
+#include "Basescape/ResearchState.h"
+#include "Savegame/SavedGame.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

@@ -19,9 +19,9 @@
 #include "Window.h"
 #include <SDL.h>
 #include <SDL_mixer.h>
-#include "../fmath.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Sound.h"
+#include "fmath.h"
+#include "Engine/Timer.h"
+#include "Engine/Sound.h"
 
 namespace OpenXcom
 {

@@ -17,14 +17,14 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ConfirmLoadState.h"
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Engine/Options.h"
 #include "LoadGameState.h"
 
 namespace OpenXcom

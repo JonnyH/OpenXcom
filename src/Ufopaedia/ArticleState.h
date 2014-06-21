@@ -20,8 +20,8 @@
 #ifndef OPENXCOM_ARTICLESTATE_H
 #define OPENXCOM_ARTICLESTATE_H
 
-#include "../Engine/State.h"
-#include "../Ruleset/RuleItem.h"
+#include "Engine/State.h"
+#include "Ruleset/RuleItem.h"
 #include <string>
 
 namespace OpenXcom

@@ -18,16 +18,16 @@
  */
 #include "ResourcePack.h"
 #include <SDL_mixer.h>
-#include "../Engine/Palette.h"
-#include "../Engine/Font.h"
-#include "../Engine/Surface.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Music.h"
-#include "../Geoscape/Polygon.h"
-#include "../Geoscape/Polyline.h"
-#include "../Engine/SoundSet.h"
-#include "../Engine/Sound.h"
-#include "../Engine/Options.h"
+#include "Engine/Palette.h"
+#include "Engine/Font.h"
+#include "Engine/Surface.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Music.h"
+#include "Geoscape/Polygon.h"
+#include "Geoscape/Polyline.h"
+#include "Engine/SoundSet.h"
+#include "Engine/Sound.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

@@ -18,21 +18,21 @@
  */
 
 #include "Ufopaedia.h"
-#include "../Ruleset/ArticleDefinition.h"
+#include "Ruleset/ArticleDefinition.h"
 #include "ArticleStateVehicle.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Surface.h"
-#include "../Resource/ResourcePack.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/TextList.h"
-#include "../Ruleset/Ruleset.h"
-#include "../Ruleset/Unit.h"
-#include "../Ruleset/Armor.h"
-#include "../Ruleset/RuleItem.h"
+#include "Engine/Game.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Engine/Surface.h"
+#include "Resource/ResourcePack.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Interface/TextList.h"
+#include "Ruleset/Ruleset.h"
+#include "Ruleset/Unit.h"
+#include "Ruleset/Armor.h"
+#include "Ruleset/RuleItem.h"
 
 namespace OpenXcom
 {

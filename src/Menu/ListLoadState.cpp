@@ -17,11 +17,11 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ListLoadState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Language.h"
-#include "../Engine/Action.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
+#include "Engine/Game.h"
+#include "Engine/Language.h"
+#include "Engine/Action.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
 #include "ConfirmLoadState.h"
 #include "LoadGameState.h"
 

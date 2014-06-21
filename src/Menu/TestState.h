@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_TESTSTATE_H
 #define OPENXCOM_TESTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

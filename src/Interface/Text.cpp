@@ -20,11 +20,11 @@
 #include <cctype>
 #include <cmath>
 #include <sstream>
-#include "../Engine/Font.h"
-#include "../Engine/Options.h"
-#include "../Engine/Language.h"
-#include "../Engine/ShaderDraw.h"
-#include "../Engine/ShaderMove.h"
+#include "Engine/Font.h"
+#include "Engine/Options.h"
+#include "Engine/Language.h"
+#include "Engine/ShaderDraw.h"
+#include "Engine/ShaderMove.h"
 
 namespace OpenXcom
 {

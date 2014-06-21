@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CRAFTEQUIPMENTSTATE_H
 #define OPENXCOM_CRAFTEQUIPMENTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <vector>
 #include <string>
 

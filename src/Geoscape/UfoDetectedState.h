@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_UFODETECTEDSTATE_H
 #define OPENXCOM_UFODETECTEDSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

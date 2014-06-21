@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CRAFTARMORSTATE_H
 #define OPENXCOM_CRAFTARMORSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

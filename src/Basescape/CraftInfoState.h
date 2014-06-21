@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CRAFTINFOSTATE_H
 #define OPENXCOM_CRAFTINFOSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

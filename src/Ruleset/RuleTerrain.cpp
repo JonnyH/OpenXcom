@@ -20,7 +20,7 @@
 #include "RuleTerrain.h"
 #include "MapBlock.h"
 #include "MapDataSet.h"
-#include "../Engine/RNG.h"
+#include "Engine/RNG.h"
 #include "Ruleset.h"
 
 namespace OpenXcom

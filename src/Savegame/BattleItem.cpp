@@ -19,8 +19,8 @@
 #include "BattleItem.h"
 #include "BattleUnit.h"
 #include "Tile.h"
-#include "../Ruleset/RuleItem.h"
-#include "../Ruleset/RuleInventory.h"
+#include "Ruleset/RuleItem.h"
+#include "Ruleset/RuleInventory.h"
 
 namespace OpenXcom
 {

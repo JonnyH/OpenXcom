@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CONFIRMNEWBASESTATE_H
 #define OPENXCOM_CONFIRMNEWBASESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ALIENTERRORSTATE_H
 #define OPENXCOM_ALIENTERRORSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

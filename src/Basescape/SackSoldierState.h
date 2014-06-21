@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SACKSOLDIERSTATE_H
 #define OPENXCOM_SACKSOLDIERSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

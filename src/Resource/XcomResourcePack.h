@@ -20,7 +20,7 @@
 #define OPENXCOM_XCOMRESOURCEPACK_H
 
 #include "ResourcePack.h"
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

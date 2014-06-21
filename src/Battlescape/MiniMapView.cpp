@@ -17,21 +17,21 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <cmath>
-#include "../fmath.h"
+#include "fmath.h"
 #include "MiniMapView.h"
 #include "MiniMapState.h"
-#include "../Savegame/Tile.h"
+#include "Savegame/Tile.h"
 #include "Map.h"
 #include "Camera.h"
-#include "../Engine/Action.h"
-#include "../Interface/Cursor.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Engine/Game.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Resource/ResourcePack.h"
-#include "../Ruleset/Armor.h"
-#include "../Engine/Options.h"
-#include "../Engine/Screen.h"
+#include "Engine/Action.h"
+#include "Interface/Cursor.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Engine/Game.h"
+#include "Engine/SurfaceSet.h"
+#include "Resource/ResourcePack.h"
+#include "Ruleset/Armor.h"
+#include "Engine/Options.h"
+#include "Engine/Screen.h"
 #include <sstream>
 
 namespace OpenXcom

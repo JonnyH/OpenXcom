@@ -20,7 +20,7 @@
 #define OPENXCOM_OPTIONSADVANCEDSTATE_H
 
 #include "OptionsBaseState.h"
-#include "../Engine/OptionInfo.h"
+#include "Engine/OptionInfo.h"
 #include <vector>
 #include <string>
 

@@ -19,16 +19,16 @@
 #include "OptionsConfirmState.h"
 #include <sstream>
 #include <iomanip>
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Engine/Options.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Screen.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Engine/Options.h"
+#include "Engine/Timer.h"
+#include "Engine/Screen.h"
 
 namespace OpenXcom
 {

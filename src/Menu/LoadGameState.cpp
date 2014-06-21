@@ -18,20 +18,20 @@
  */
 #include "LoadGameState.h"
 #include <sstream>
-#include "../Engine/Logger.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Engine/Game.h"
-#include "../Engine/Action.h"
-#include "../Engine/Exception.h"
-#include "../Engine/Options.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Screen.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/Text.h"
-#include "../Geoscape/GeoscapeState.h"
+#include "Engine/Logger.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Engine/Game.h"
+#include "Engine/Action.h"
+#include "Engine/Exception.h"
+#include "Engine/Options.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Screen.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/Text.h"
+#include "Geoscape/GeoscapeState.h"
 #include "ErrorMessageState.h"
-#include "../Battlescape/BattlescapeState.h"
+#include "Battlescape/BattlescapeState.h"
 
 namespace OpenXcom
 {

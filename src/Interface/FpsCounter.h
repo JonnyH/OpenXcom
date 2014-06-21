@@ -20,7 +20,7 @@
 #ifndef OPENXCOM_FPSCOUNTER_H
 #define OPENXCOM_FPSCOUNTER_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

@@ -20,7 +20,7 @@
 #define OPENXCOM_ERRORMESSAGESTATE_H
 
 #include <string>
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

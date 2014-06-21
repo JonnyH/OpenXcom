@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BASEDEFENSESTATE_H
 #define OPENXCOM_BASEDEFENSESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

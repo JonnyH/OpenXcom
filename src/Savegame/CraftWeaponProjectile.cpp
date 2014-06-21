@@ -18,10 +18,10 @@
  */
 #include "CraftWeaponProjectile.h"
 #include <iostream>
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Surface.h"
-#include "../Engine/Palette.h"
-#include "../Ruleset/RuleCraftWeapon.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Surface.h"
+#include "Engine/Palette.h"
+#include "Ruleset/RuleCraftWeapon.h"
 
 namespace OpenXcom {
 

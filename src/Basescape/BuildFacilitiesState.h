@@ -20,7 +20,7 @@
 #define OPENXCOM_BUILDFACILITIESSTATE_H
 
 #include <vector>
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

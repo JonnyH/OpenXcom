@@ -18,15 +18,15 @@
  */
 
 #include "Ufopaedia.h"
-#include "../Ruleset/ArticleDefinition.h"
+#include "Ruleset/ArticleDefinition.h"
 #include "ArticleStateText.h"
-#include "../Engine/Game.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Surface.h"
-#include "../Resource/ResourcePack.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
+#include "Engine/Game.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Engine/Surface.h"
+#include "Resource/ResourcePack.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
 
 namespace OpenXcom
 {

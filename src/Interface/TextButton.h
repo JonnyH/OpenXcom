@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_TEXTBUTTON_H
 #define OPENXCOM_TEXTBUTTON_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

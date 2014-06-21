@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BASESCAPESTATE_H
 #define OPENXCOM_BASESCAPESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

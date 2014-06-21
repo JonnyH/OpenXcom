@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_TEXT_H
 #define OPENXCOM_TEXT_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 #include <vector>
 #include <string>
 

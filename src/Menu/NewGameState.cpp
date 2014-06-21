@@ -17,18 +17,18 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "NewGameState.h"
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Ruleset/Ruleset.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/ToggleTextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Geoscape/GeoscapeState.h"
-#include "../Geoscape/BuildNewBaseState.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Ruleset/Ruleset.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/ToggleTextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Geoscape/GeoscapeState.h"
+#include "Geoscape/BuildNewBaseState.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

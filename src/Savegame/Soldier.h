@@ -21,8 +21,8 @@
 
 #include <string>
 #include <yaml-cpp/yaml.h>
-#include "../Ruleset/Unit.h"
-#include "../Ruleset/StatString.h"
+#include "Ruleset/Unit.h"
+#include "Ruleset/StatString.h"
 	 
 namespace OpenXcom
 {

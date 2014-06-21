@@ -17,18 +17,18 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "BaseNameState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Action.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextEdit.h"
-#include "../Interface/TextButton.h"
-#include "../Savegame/Base.h"
-#include "../Basescape/PlaceLiftState.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Engine/Action.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextEdit.h"
+#include "Interface/TextButton.h"
+#include "Savegame/Base.h"
+#include "Basescape/PlaceLiftState.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

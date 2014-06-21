@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_DEFEATSTATE_H
 #define OPENXCOM_DEFEATSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

@@ -20,8 +20,8 @@
 #include <SDL.h>
 #include <SDL_mixer.h>
 #include "Text.h"
-#include "../Engine/Sound.h"
-#include "../Engine/Action.h"
+#include "Engine/Sound.h"
+#include "Engine/Action.h"
 #include "ComboBox.h"
 
 namespace OpenXcom

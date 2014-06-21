@@ -20,8 +20,8 @@
 #include <assert.h>
 #include "RuleRegion.h"
 #include "City.h"
-#include "../fmath.h"
-#include "../Engine/RNG.h"
+#include "fmath.h"
+#include "Engine/RNG.h"
 #include <math.h>
 
 namespace OpenXcom

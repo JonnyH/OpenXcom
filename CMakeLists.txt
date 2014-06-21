@@ -26,6 +26,8 @@ endif ()
 
 set ( DEPS_DIR "${default_deps_dir}" CACHE STRING "Dependencies directory" )
 
+include_directories ( "${CMAKE_SOURCE_DIR}/src" )
+
 # Add check for library (SDL_gfx, yaml-cpp )
 if ( IS_DIRECTORY ${DEPS_DIR} )
    include_directories ( ${DEPS_DIR}/include/SDL ${DEPS_DIR}/include/yaml-cpp ${DEPS_DIR}/include )

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_FUNDINGSTATE_H
 #define OPENXCOM_FUNDINGSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

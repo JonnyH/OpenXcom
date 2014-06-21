@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_WARNINGMESSAGE_H
 #define OPENXCOM_WARNINGMESSAGE_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

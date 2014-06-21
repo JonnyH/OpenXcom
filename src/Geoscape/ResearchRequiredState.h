@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_RESEARCHREQUIREDSTATE
 #define OPENXCOM_RESEARCHREQUIREDSTATE
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

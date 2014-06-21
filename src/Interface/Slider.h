@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SLIDER_H
 #define OPENXCOM_SLIDER_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

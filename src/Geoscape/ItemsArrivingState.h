@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ITEMSARRIVINGSTATE_H
 #define OPENXCOM_ITEMSARRIVINGSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

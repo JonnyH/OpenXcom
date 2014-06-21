@@ -26,13 +26,13 @@
 #include "Camera.h"
 #include "BattleAIState.h"
 #include "ExplosionBState.h"
-#include "../Engine/Game.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Savegame/Tile.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Options.h"
-#include "../Ruleset/Armor.h"
+#include "Engine/Game.h"
+#include "Savegame/BattleUnit.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Savegame/Tile.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Options.h"
+#include "Ruleset/Armor.h"
 
 namespace OpenXcom
 {

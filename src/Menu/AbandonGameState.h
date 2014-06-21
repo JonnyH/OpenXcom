@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ABANDONGAMESTATE_H
 #define OPENXCOM_ABANDONGAMESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "OptionsBaseState.h"
 
 namespace OpenXcom

@@ -19,8 +19,8 @@
 #ifndef OPENXCOM_NEWGAMESTATE_H
 #define OPENXCOM_NEWGAMESTATE_H
 
-#include "../Engine/State.h"
-#include "../Savegame/SavedGame.h"
+#include "Engine/State.h"
+#include "Savegame/SavedGame.h"
 
 namespace OpenXcom
 {

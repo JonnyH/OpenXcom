@@ -18,19 +18,19 @@
  */
 #include "DefeatState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/Text.h"
-#include "../Engine/InteractiveSurface.h"
-#include "../Savegame/SavedGame.h"
-#include "../Menu/MainMenuState.h"
-#include "../Engine/Music.h"
-#include "../Engine/Timer.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Options.h"
-#include "../Engine/Screen.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/Text.h"
+#include "Engine/InteractiveSurface.h"
+#include "Savegame/SavedGame.h"
+#include "Menu/MainMenuState.h"
+#include "Engine/Music.h"
+#include "Engine/Timer.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Options.h"
+#include "Engine/Screen.h"
 
 namespace OpenXcom
 {

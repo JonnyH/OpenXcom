@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_GEOSCAPECRAFTSTATE_H
 #define OPENXCOM_GEOSCAPECRAFTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

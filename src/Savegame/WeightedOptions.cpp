@@ -18,7 +18,7 @@
  */
 #include <assert.h>
 #include "WeightedOptions.h"
-#include "../Engine/RNG.h"
+#include "Engine/RNG.h"
 
 namespace OpenXcom
 {

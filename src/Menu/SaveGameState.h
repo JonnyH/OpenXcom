@@ -19,10 +19,10 @@
 #ifndef OPENXCOM__SAVEGAMESTATE
 #define OPENXCOM__SAVEGAMESTATE
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <string>
 #include "OptionsBaseState.h"
-#include "../Savegame/SavedGame.h"
+#include "Savegame/SavedGame.h"
 
 namespace OpenXcom
 {

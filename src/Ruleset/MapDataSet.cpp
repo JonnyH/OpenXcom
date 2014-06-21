@@ -21,9 +21,9 @@
 #include <fstream>
 #include <sstream>
 #include <SDL_endian.h>
-#include "../Engine/Exception.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/CrossPlatform.h"
+#include "Engine/Exception.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/CrossPlatform.h"
 
 namespace OpenXcom
 {

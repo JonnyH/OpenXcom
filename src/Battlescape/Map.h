@@ -19,8 +19,8 @@
 #ifndef OPENXCOM_MAP_H
 #define OPENXCOM_MAP_H
 
-#include "../Engine/InteractiveSurface.h"
-#include "../Engine/Options.h"
+#include "Engine/InteractiveSurface.h"
+#include "Engine/Options.h"
 #include "Position.h"
 #include <set>
 #include <vector>

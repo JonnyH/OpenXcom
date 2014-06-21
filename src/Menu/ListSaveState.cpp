@@ -17,15 +17,15 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ListSaveState.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Game.h"
-#include "../Engine/Action.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Options.h"
-#include "../Interface/TextList.h"
-#include "../Interface/TextEdit.h"
-#include "../Interface/TextButton.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Game.h"
+#include "Engine/Action.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Engine/Options.h"
+#include "Interface/TextList.h"
+#include "Interface/TextEdit.h"
+#include "Interface/TextButton.h"
 #include "SaveGameState.h"
 
 namespace OpenXcom

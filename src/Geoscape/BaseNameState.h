@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BASENAMESTATE_H
 #define OPENXCOM_BASENAMESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "Globe.h"
 
 namespace OpenXcom

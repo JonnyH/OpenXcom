@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_RESEARCHCOMPLETESTATE
 #define OPENXCOM_RESEARCHCOMPLETESTATE
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 namespace OpenXcom
 {
 class Game;

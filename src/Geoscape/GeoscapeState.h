@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_GEOSCAPESTATE_H
 #define OPENXCOM_GEOSCAPESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <list>
 
 namespace OpenXcom

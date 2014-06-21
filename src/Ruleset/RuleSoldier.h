@@ -20,7 +20,7 @@
 #define OPENXCOM_RULESOLDIER_H
 
 #include <string>
-#include "../Ruleset/Unit.h"
+#include "Ruleset/Unit.h"
 
 namespace OpenXcom
 {

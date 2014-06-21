@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_PSITRAININGSTATE_H
 #define OPENXCOM_PSITRAININGSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

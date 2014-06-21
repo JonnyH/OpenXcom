@@ -18,18 +18,18 @@
  */
 #include "AlienTerrorState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
 #include "GeoscapeState.h"
 #include "Globe.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/TerrorSite.h"
-#include "../Engine/Options.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/TerrorSite.h"
+#include "Engine/Options.h"
 #include "InterceptState.h"
 
 namespace OpenXcom

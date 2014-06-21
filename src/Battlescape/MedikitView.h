@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MEDIKITVIEW_H
 #define OPENXCOM_MEDIKITVIEW_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

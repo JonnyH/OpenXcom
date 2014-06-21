@@ -17,16 +17,16 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Tile.h"
-#include "../Ruleset/MapData.h"
-#include "../Ruleset/MapDataSet.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Surface.h"
-#include "../Engine/RNG.h"
-#include "../Engine/Exception.h"
+#include "Ruleset/MapData.h"
+#include "Ruleset/MapDataSet.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Surface.h"
+#include "Engine/RNG.h"
+#include "Engine/Exception.h"
 #include "BattleUnit.h"
 #include "BattleItem.h"
-#include "../Ruleset/RuleItem.h"
-#include "../Ruleset/Armor.h"
+#include "Ruleset/RuleItem.h"
+#include "Ruleset/Armor.h"
 #include "SerializationHelper.h"
 
 namespace OpenXcom

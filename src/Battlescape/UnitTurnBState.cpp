@@ -21,13 +21,13 @@
 #include "TileEngine.h"
 #include "BattlescapeState.h"
 #include "Map.h"
-#include "../Engine/Game.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Sound.h"
-#include "../Engine/RNG.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Savegame/BattleUnit.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Sound.h"
+#include "Engine/RNG.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

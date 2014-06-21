@@ -20,12 +20,12 @@
 #include "Craft.h"
 #include <cmath>
 #include <sstream>
-#include "../Engine/Language.h"
-#include "../Ruleset/RuleCraft.h"
+#include "Engine/Language.h"
+#include "Ruleset/RuleCraft.h"
 #include "CraftWeapon.h"
-#include "../Ruleset/RuleCraftWeapon.h"
-#include "../Ruleset/Ruleset.h"
-#include "../Savegame/SavedGame.h"
+#include "Ruleset/RuleCraftWeapon.h"
+#include "Ruleset/Ruleset.h"
+#include "Savegame/SavedGame.h"
 #include "ItemContainer.h"
 #include "Soldier.h"
 #include "Base.h"
@@ -34,7 +34,7 @@
 #include "TerrorSite.h"
 #include "AlienBase.h"
 #include "Vehicle.h"
-#include "../Ruleset/RuleItem.h"
+#include "Ruleset/RuleItem.h"
 
 namespace OpenXcom
 {

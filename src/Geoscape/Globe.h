@@ -21,8 +21,8 @@
 
 #include <vector>
 #include <list>
-#include "../Engine/InteractiveSurface.h"
-#include "../Engine/FastLineClip.h"
+#include "Engine/InteractiveSurface.h"
+#include "Engine/FastLineClip.h"
 #include "Cord.h"
 
 namespace OpenXcom

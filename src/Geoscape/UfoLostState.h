@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_UFOLOSTSTATE_H
 #define OPENXCOM_UFOLOSTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <string>
 
 namespace OpenXcom

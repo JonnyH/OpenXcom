@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NEWRESEARCHLISTSTATE_H
 #define OPENXCOM_NEWRESEARCHLISTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <vector>
 
 namespace OpenXcom

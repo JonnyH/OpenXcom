@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CONFIRMCYDONIASTATE_H
 #define OPENXCOM_CONFIRMCYDONIASTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

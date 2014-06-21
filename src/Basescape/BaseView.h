@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BASEVIEW_H
 #define OPENXCOM_BASEVIEW_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

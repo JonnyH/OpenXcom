@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NEWPOSSIBLEMANUFACTURESTATE
 #define OPENXCOM_NEWPOSSIBLEMANUFACTURESTATE
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 namespace OpenXcom
 {
 class Game;

@@ -20,7 +20,7 @@
 #define OPENXCOM_BATTLESCAPEMESSAGE_H
 
 #include <string>
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

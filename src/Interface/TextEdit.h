@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_TEXTEDIT_H
 #define OPENXCOM_TEXTEDIT_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 #include "Text.h"
 
 namespace OpenXcom

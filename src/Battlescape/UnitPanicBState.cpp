@@ -18,7 +18,7 @@
  */
 
 #include "UnitPanicBState.h"
-#include "../Savegame/BattleUnit.h"
+#include "Savegame/BattleUnit.h"
 
 namespace OpenXcom
 {

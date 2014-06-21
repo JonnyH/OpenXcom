@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CANNOTREEQUIPSTATE_H
 #define OPENXCOM_CANNOTREEQUIPSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "DebriefingState.h"
 #include <vector>
 

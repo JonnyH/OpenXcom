@@ -21,11 +21,11 @@
 
 #include <vector>
 #include <string>
-#include "../Battlescape/Position.h"
-#include "../Battlescape/BattlescapeGame.h"
-#include "../Ruleset/RuleItem.h"
-#include "../Ruleset/Unit.h"
-#include "../Ruleset/MapData.h"
+#include "Battlescape/Position.h"
+#include "Battlescape/BattlescapeGame.h"
+#include "Ruleset/RuleItem.h"
+#include "Ruleset/Unit.h"
+#include "Ruleset/MapData.h"
 #include "Soldier.h"
 
 namespace OpenXcom

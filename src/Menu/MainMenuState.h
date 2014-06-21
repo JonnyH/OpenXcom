@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MAINMENUSTATE_H
 #define OPENXCOM_MAINMENUSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

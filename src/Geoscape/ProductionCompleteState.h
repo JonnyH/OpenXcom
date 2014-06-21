@@ -20,8 +20,8 @@
 #define OPENXCOM_PRODUCTIONCOMPLETESTATE_H
 
 #include <string>
-#include "../Engine/State.h"
-#include "../Savegame/Production.h"
+#include "Engine/State.h"
+#include "Savegame/Production.h"
 
 namespace OpenXcom
 {

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_TRANSFERBASESTATE_H
 #define OPENXCOM_TRANSFERBASESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <vector>
 
 namespace OpenXcom

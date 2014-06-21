@@ -17,17 +17,17 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "AbandonGameState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Options.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Engine/Options.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
 #include "MainMenuState.h"
-#include "../Engine/Screen.h"
-#include "../Savegame/SavedGame.h"
+#include "Engine/Screen.h"
+#include "Savegame/SavedGame.h"
 #include "SaveGameState.h"
 
 namespace OpenXcom

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_FRAME_H
 #define OPENXCOM_FRAME_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

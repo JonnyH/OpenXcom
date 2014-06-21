@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MONTHLYCOSTSSTATE_H
 #define OPENXCOM_MONTHLYCOSTSSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

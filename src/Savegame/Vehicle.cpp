@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Vehicle.h"
-#include "../Ruleset/RuleItem.h"
+#include "Ruleset/RuleItem.h"
 
 namespace OpenXcom
 {

@@ -19,8 +19,8 @@
 #ifndef OPENXCOM_SELLSTATE_H
 #define OPENXCOM_SELLSTATE_H
 
-#include "../Engine/State.h"
-#include "../Menu/OptionsBaseState.h"
+#include "Engine/State.h"
+#include "Menu/OptionsBaseState.h"
 #include <vector>
 #include <string>
 

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NEWMANUFACTURELISTSTATE_H
 #define OPENXCOM_NEWMANUFACTURELISTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <vector>
 
 namespace OpenXcom

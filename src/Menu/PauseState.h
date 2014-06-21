@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_PAUSESTATE_H
 #define OPENXCOM_PAUSESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "OptionsBaseState.h"
 
 namespace OpenXcom

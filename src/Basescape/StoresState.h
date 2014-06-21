@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_STORESSTATE_H
 #define OPENXCOM_STORESSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

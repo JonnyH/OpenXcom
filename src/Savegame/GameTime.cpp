@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "GameTime.h"
-#include "../Engine/Language.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

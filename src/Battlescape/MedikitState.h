@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MEDIKITSTATE_H
 #define OPENXCOM_MEDIKITSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

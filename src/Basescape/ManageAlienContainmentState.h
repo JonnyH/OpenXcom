@@ -19,8 +19,8 @@
 #ifndef OPENXCOM_MANAGEALIENCONTAINMENTSTATE_H
 #define OPENXCOM_MANAGEALIENCONTAINMENTSTATE_H
 
-#include "../Engine/State.h"
-#include "../Menu/OptionsBaseState.h"
+#include "Engine/State.h"
+#include "Menu/OptionsBaseState.h"
 #include <vector>
 #include <string>
 

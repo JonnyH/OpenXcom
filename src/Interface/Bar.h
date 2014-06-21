@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BAR_H
 #define OPENXCOM_BAR_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

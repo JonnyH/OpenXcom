@@ -18,8 +18,8 @@
  */
 #include "RuleItem.h"
 #include "RuleInventory.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Surface.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

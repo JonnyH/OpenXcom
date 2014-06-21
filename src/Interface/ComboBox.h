@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_COMBOBOX_H
 #define OPENXCOM_COMBOBOX_H
 
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 #include <vector>
 #include <string>
 

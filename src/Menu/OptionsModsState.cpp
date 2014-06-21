@@ -19,16 +19,16 @@
 #include "OptionsModsState.h"
 #include <algorithm>
 #include <vector>
-#include "../Engine/Game.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Language.h"
-#include "../Interface/Window.h"
-#include "../Interface/TextList.h"
-#include "../Interface/Text.h"
-#include "../Engine/Options.h"
-#include "../Engine/Action.h"
+#include "Engine/Game.h"
+#include "Engine/CrossPlatform.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Palette.h"
+#include "Engine/Language.h"
+#include "Interface/Window.h"
+#include "Interface/TextList.h"
+#include "Interface/Text.h"
+#include "Engine/Options.h"
+#include "Engine/Action.h"
 
 namespace OpenXcom
 {

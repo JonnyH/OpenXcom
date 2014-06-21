@@ -20,7 +20,7 @@
 #define OPENXCOM_MINIBASEVIEW_H
 
 #include <vector>
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

@@ -18,16 +18,16 @@
  */
 #include "IntroState.h"
 #include <SDL_mixer.h>
-#include "../Engine/Adlib/adlplayer.h"
-#include "../Engine/Logger.h"
-#include "../Engine/Game.h"
-#include "../Engine/Options.h"
-#include "../Engine/Flc.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Screen.h"
-#include "../Engine/Music.h"
-#include "../Engine/Sound.h"
-#include "../Resource/ResourcePack.h"
+#include "Engine/Adlib/adlplayer.h"
+#include "Engine/Logger.h"
+#include "Engine/Game.h"
+#include "Engine/Options.h"
+#include "Engine/Flc.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Screen.h"
+#include "Engine/Music.h"
+#include "Engine/Sound.h"
+#include "Resource/ResourcePack.h"
 #include "MainMenuState.h"
 
 namespace OpenXcom

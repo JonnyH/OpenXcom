@@ -39,7 +39,7 @@ grt,
 #include "Screen.h"
 #include "Surface.h"
 #include "Options.h"
-#include "../fmath.h"
+#include "fmath.h"
 
 namespace OpenXcom
 {

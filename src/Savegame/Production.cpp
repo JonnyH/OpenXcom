@@ -17,17 +17,17 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Production.h"
-#include "../Ruleset/RuleManufacture.h"
+#include "Ruleset/RuleManufacture.h"
 #include "Base.h"
 #include "SavedGame.h"
 #include "ItemContainer.h"
 #include "Craft.h"
 #include "CraftWeapon.h"
-#include "../Ruleset/Ruleset.h"
-#include "../Ruleset/RuleItem.h"
-#include "../Ruleset/RuleCraft.h"
-#include "../Ruleset/RuleCraftWeapon.h"
-#include "../Engine/Options.h"
+#include "Ruleset/Ruleset.h"
+#include "Ruleset/RuleItem.h"
+#include "Ruleset/RuleCraft.h"
+#include "Ruleset/RuleCraftWeapon.h"
+#include "Engine/Options.h"
 #include <limits>
 
 namespace OpenXcom

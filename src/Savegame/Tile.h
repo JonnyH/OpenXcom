@@ -21,8 +21,8 @@
 
 #include <string>
 #include <vector>
-#include "../Battlescape/Position.h"
-#include "../Ruleset/MapData.h"
+#include "Battlescape/Position.h"
+#include "Ruleset/MapData.h"
 #include "BattleUnit.h"
 
 #include <SDL_types.h> // for Uint8

@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_ACTIONMENUSTATE_H
 #define OPENXCOM_ACTIONMENUSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "BattlescapeGame.h"
 
 namespace OpenXcom

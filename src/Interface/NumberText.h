@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NUMBERTEXT_H
 #define OPENXCOM_NUMBERTEXT_H
 
-#include "../Engine/Surface.h"
+#include "Engine/Surface.h"
 
 namespace OpenXcom
 {

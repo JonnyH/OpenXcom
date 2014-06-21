@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_DOGFIGHTSTATE_H
 #define OPENXCOM_DOGFIGHTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <vector>
 #include <string>
 

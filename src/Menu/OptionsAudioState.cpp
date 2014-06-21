@@ -19,17 +19,17 @@
 #include "OptionsAudioState.h"
 #include <sstream>
 #include <SDL_mixer.h>
-#include "../Engine/Game.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Language.h"
-#include "../Engine/Palette.h"
-#include "../Interface/ComboBox.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/Slider.h"
-#include "../Engine/Action.h"
-#include "../Engine/Options.h"
-#include "../Engine/Sound.h"
+#include "Engine/Game.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Language.h"
+#include "Engine/Palette.h"
+#include "Interface/ComboBox.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/Slider.h"
+#include "Engine/Action.h"
+#include "Engine/Options.h"
+#include "Engine/Sound.h"
 
 namespace OpenXcom
 {

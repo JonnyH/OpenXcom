@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_DEBRIEFINGSTATE_H
 #define OPENXCOM_DEBRIEFINGSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <string>
 #include <vector>
 #include <map>

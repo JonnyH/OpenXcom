@@ -19,12 +19,12 @@
 #ifndef OPENXCOM_LISTGAMESSTATE_H
 #define OPENXCOM_LISTGAMESSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "OptionsBaseState.h"
 #include <vector>
 #include <string>
-#include "../Savegame/SavedGame.h"
-#include "../Engine/Options.h"
+#include "Savegame/SavedGame.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

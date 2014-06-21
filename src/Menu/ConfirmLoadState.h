@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_CONFIRMLOADSTATE_H
 #define OPENXCOM_CONFIRMLOADSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <string>
 #include "OptionsBaseState.h"
 

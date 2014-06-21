@@ -19,10 +19,10 @@
 #ifndef OPENXCOM_INVENTORYSTATE_H
 #define OPENXCOM_INVENTORYSTATE_H
 
-#include "../Engine/State.h"
-#include "../Interface/TextButton.h"
-#include "../Savegame/BattleItem.h"
-#include "../Savegame/EquipmentLayoutItem.h"
+#include "Engine/State.h"
+#include "Interface/TextButton.h"
+#include "Savegame/BattleItem.h"
+#include "Savegame/EquipmentLayoutItem.h"
 
 
 namespace OpenXcom

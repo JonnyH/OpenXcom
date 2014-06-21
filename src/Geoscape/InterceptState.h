@@ -20,7 +20,7 @@
 #define OPENXCOM_INTERCEPTSTATE_H
 
 #include <vector>
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

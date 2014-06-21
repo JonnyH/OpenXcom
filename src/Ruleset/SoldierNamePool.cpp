@@ -20,11 +20,11 @@
 #include <iostream>
 #include <sstream>
 #include <fstream>
-#include "../Savegame/Soldier.h"
-#include "../Engine/RNG.h"
-#include "../Engine/Language.h"
-#include "../Engine/Exception.h"
-#include "../Engine/CrossPlatform.h"
+#include "Savegame/Soldier.h"
+#include "Engine/RNG.h"
+#include "Engine/Language.h"
+#include "Engine/Exception.h"
+#include "Engine/CrossPlatform.h"
 
 namespace OpenXcom
 {

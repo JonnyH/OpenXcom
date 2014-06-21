@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_NODE_H
 #define OPENXCOM_NODE_H
 
-#include "../Battlescape/Position.h"
+#include "Battlescape/Position.h"
 #include <yaml-cpp/yaml.h>
 
 namespace OpenXcom

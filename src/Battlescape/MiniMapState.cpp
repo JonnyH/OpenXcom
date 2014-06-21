@@ -19,17 +19,17 @@
 #include "MiniMapState.h"
 #include <iostream>
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Engine/Screen.h"
-#include "../Engine/InteractiveSurface.h"
-#include "../Resource/ResourcePack.h"
-#include "../Engine/Palette.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Engine/Screen.h"
+#include "Engine/InteractiveSurface.h"
+#include "Resource/ResourcePack.h"
+#include "Engine/Palette.h"
+#include "Interface/Text.h"
 #include "MiniMapView.h"
 #include "Camera.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Action.h"
-#include "../Engine/Options.h"
+#include "Engine/Timer.h"
+#include "Engine/Action.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

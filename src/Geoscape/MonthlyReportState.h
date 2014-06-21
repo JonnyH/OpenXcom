@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_MONTHLYREPORTSTATE_H
 #define OPENXCOM_MONTHLYREPORTSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include <string>
 
 namespace OpenXcom

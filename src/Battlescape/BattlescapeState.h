@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_BATTLESCAPESTATE_H
 #define OPENXCOM_BATTLESCAPESTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "Position.h"
 
 #include <vector>

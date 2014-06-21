@@ -19,7 +19,7 @@
 #ifndef OPENXCOM_SELECTDESTINATIONSTATE_H
 #define OPENXCOM_SELECTDESTINATIONSTATE_H
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {
