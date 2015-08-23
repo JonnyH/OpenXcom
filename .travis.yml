@@ -1,0 +1,30 @@
+language: cpp
+
+compiler:
+  - gcc
+  - clang
+
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install libsdl-mixer1.2-dev libsdl-gfx1.2-dev libsdl-image1.2-dev libboost-dev
+  - ${CXX} --version
+  - ${CC} --version
+  - mkdir ~/dependency-prefix
+  - export PKG_CONFIG_PATH=~/dependency-prefix/lib/pkgconfig
+
+env:
+  - BUILD_TYPE=Debug
+  - BUILD_TYPE=Release
+
+install:
+  - mkdir -p ./dependencies/
+  - pushd ./dependencies/ && git clone https://github.com/jbeder/yaml-cpp.git && pushd yaml-cpp && git checkout release-0.5.1 && cmake -DCMAKE_INSTALL_PREFIX=~/dependency-prefix -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" . && make && make install && popd && popd
+
+before_script:
+  - cmake . -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" -DYAMLCPP_INCLUDE_DIR=~/dependency-prefix/include
+
+script: make VERBOSE=1
+
+os:
+  - linux
+
