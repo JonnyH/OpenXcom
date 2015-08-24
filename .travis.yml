@@ -13,17 +13,19 @@ before_install:
   - export PKG_CONFIG_PATH=~/dependency-prefix/lib/pkgconfig
 
 env:
-  - BUILD_TYPE=Debug
-  - BUILD_TYPE=Release
+  - BUILD_TYPE=Debug EXTRA_WARNING_FLAGS=""
+  - BUILD_TYPE=Release EXTRA_WARNING_FLAGS=""
+  - BUILD_TYPE=Debug EXTRA_WARNING_FLAGS="-Wall -Wextra"
+  - BUILD_TYPE=Release EXTRA_WARNING_FLAGS="-Wall -Wextra"
 
 install:
   - mkdir -p ./dependencies/
-  - pushd ./dependencies/ && git clone https://github.com/jbeder/yaml-cpp.git && pushd yaml-cpp && git checkout release-0.5.1 && cmake -DCMAKE_INSTALL_PREFIX=~/dependency-prefix -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" . && make && make install && popd && popd
+  - pushd ./dependencies/ && git clone https://github.com/jbeder/yaml-cpp.git && pushd yaml-cpp && git checkout release-0.5.1 && cmake -DCMAKE_INSTALL_PREFIX=~/dependency-prefix -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" -DYAML_CPP_BUILD_CONTRIB=NO -DYAML_CPP_BUILD_TOOLS=NO . && make -j2 && make install && popd && popd
 
 before_script:
-  - cmake . -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" -DYAMLCPP_INCLUDE_DIR=~/dependency-prefix/include
+  - cmake . -DCMAKE_BUILD_TYPE="${BUILD_TYPE}" -DYAMLCPP_INCLUDE_DIR=~/dependency-prefix/include -DCMAKE_CXX_FLAGS="${EXTRA_WARNING_FLAGS}" -DCMAKE_C_FLAGS="${EXTRA_WARNING_FLAGS}"
 
-script: make VERBOSE=1
+script: make -j2
 
 os:
   - linux
