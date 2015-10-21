@@ -24,6 +24,7 @@
 #include <stdint.h>
 #include <math.h>
 #include <memory.h>
+#include <cassert>
 #include "fmopl.h"
 
 const int16_t adl_gv_freq_table[] = { // 9 * 12 -- notes frequency
@@ -172,6 +173,7 @@ void Transpose(int reg, int val, int*val2, int *reg3, int*val3)
 	int iValue = val; // temp
 	if ((iRegister >> 4 == 0xA) || (iRegister >> 4 == 0xB)) iChannel = iRegister & 0x0F;
 
+
 	// Remember the FM state, so that the harmonic effect can access
 	// previously assigned register values.
 	/*if (((iRegister >> 4 == 0xB) && (iValue & 0x20) && !(this->iFMReg[iRegister] & 0x20)) ||
@@ -180,6 +182,7 @@ void Transpose(int reg, int val, int*val2, int *reg3, int*val3)
 		)) {
 		this->iFMReg[iRegister] = iValue;
 	}*/
+	assert(iRegister < 256);
 	iFMReg[iRegister] = iValue;
 
 	if ((iChannel >= 0 && iChannel < 12)) {// && (i == 1)) {
@@ -368,6 +371,7 @@ void adlib_reset_channels()
 // returns note frequency with pitch wheel value applied
 int get_pitched_freq_instr(int note, int instrument)
 {
+	assert(instrument < 16);
 	int pitch = instruments[instrument].cur_pitchbend;
 	if (pitch==0)
 		return adl_gv_freq_table[note];
@@ -382,6 +386,7 @@ int get_pitched_freq_instr(int note, int instrument)
 // !!! probably should also apply pitch for CHORUS instrument !!!
 void adlib_set_instrument_pitch(int instrument, int pitch)
 {
+	assert(instrument < 16);
 	instruments[instrument].cur_pitchbend = pitch;
 	for (int i=0; i<12; ++i) //search through active adlib channels
 	{
@@ -562,6 +567,8 @@ int decode_op(int instrument, bool* another_loop)
 	unsigned char* music_ptr = instr1->cur_address;
 	unsigned char opcode,arg1,arg2;
 	int delay = 0;
+
+	assert(instrument < 16);
 
 	do {
 		opcode = *(music_ptr++);
@@ -772,11 +779,13 @@ void init_music()
 //save music state
 void func_save_music_state(int i)
 {
+	assert(i < 2);
 	memcpy(&saved_instruments[i], &instruments, sizeof(instruments));
 }
 //load music state
 void func_load_music_state(int i)
 {
+	assert(i < 2);
 	adlib_reset_channels();
 	memcpy(&instruments, &saved_instruments[i], sizeof(instruments));
 }
