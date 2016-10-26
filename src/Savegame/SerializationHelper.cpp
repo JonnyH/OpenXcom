@@ -33,14 +33,22 @@ int unserializeInt(Uint8 **buffer, Uint8 sizeKey)
 		ret = **buffer;
 		break;
 	case 2:
-		ret = *(Sint16*)*buffer;
+	{
+		Sint16 tmp;
+		memcpy(*buffer, &tmp, sizeof(tmp);
+		ret = tmp;
 		break;
+	}
 	case 3:
 		assert(false); // no.
 		break;
 	case 4:
-		ret = *(Uint32*)*buffer;
+	{
+		Uint32 tmp;
+		memcpy(*buffer, &tmp, sizeof(tmp);
+		ret = tmp;
 		break;
+	}
 	default:
 		assert(false); // get out.
 	}
@@ -59,15 +67,25 @@ void serializeInt(Uint8 **buffer, Uint8 sizeKey, int value)
 		**buffer = value;
 		break;
 	case 2:
+	{
+		Sint16 s16Value = value;
 		assert(value < 65536);
-		*(Sint16*)*buffer = value;
+		/* Writing 2-byte value to an unaligned address requires byte-copies on
+		 * some systems, which the system-memcpy takes care of for us */
+		memcpy(*buffer, &s16Value, sizeof(Sint16));
 		break;
+	}
 	case 3:
 		assert(false); // no.
 		break;
 	case 4:
-		*(Uint32*)*buffer = value;
+	{
+		Uint32 u32Value = value;
+		/* Writing 2-byte value to an unaligned address requires byte-copies on
+		 * some systems, which the system-memcpy takes care of for us */
+		memcpy(*buffer, &u32Value, sizeof(Uint32));
 		break;
+	}
 	default:
 		assert(false); // get out.
 	}
