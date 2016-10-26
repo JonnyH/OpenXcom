@@ -85,7 +85,7 @@
 
 #ifdef __GNUC__
 #if (__i386__ || __x86_64__)
-#include <cpuid.h>
+//#include <cpuid.h>
 #endif
 #endif
 
@@ -115,6 +115,8 @@
 #include <SDL_thread.h>
 #include <SDL_types.h>
 #include <SDL_video.h>
+// X11 headers #define None, which is then used in (at least) yaml-cpp as an enum type
+#undef None
 #include <yaml-cpp/yaml.h>
 #include "./dirent.h"
 #include "./lodepng.h"
