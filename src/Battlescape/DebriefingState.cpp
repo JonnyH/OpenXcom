@@ -1101,9 +1101,9 @@ void DebriefingState::prepareDebriefing()
 				// get recoverable map data objects from the battlescape map
 				for (int part = 0; part < 4; ++part)
 				{
-					if (battle->getTiles()[i]->getMapData(part))
+					if (battle->getTiles()[i].getMapData(part))
 					{
-						int specialType = battle->getTiles()[i]->getMapData(part)->getSpecialType();
+						int specialType = battle->getTiles()[i].getMapData(part)->getSpecialType();
 						if (specialType != nonRecoverType && _recoveryStats.find(specialType) != _recoveryStats.end())
 						{
 							addStat(_recoveryStats[specialType]->name, 1, _recoveryStats[specialType]->value);
@@ -1111,15 +1111,15 @@ void DebriefingState::prepareDebriefing()
 					}
 				}
 				// recover items from the floor
-				recoverItems(battle->getTiles()[i]->getInventory(), base);
+				recoverItems(battle->getTiles()[i].getInventory(), base);
 			}
 		}
 		else
 		{
 			for (int i = 0; i < battle->getMapSizeXYZ(); ++i)
 			{
-				if (battle->getTiles()[i]->getMapData(O_FLOOR) && (battle->getTiles()[i]->getMapData(O_FLOOR)->getSpecialType() == START_POINT))
-					recoverItems(battle->getTiles()[i]->getInventory(), base);
+				if (battle->getTiles()[i].getMapData(O_FLOOR) && (battle->getTiles()[i].getMapData(O_FLOOR)->getSpecialType() == START_POINT))
+					recoverItems(battle->getTiles()[i].getInventory(), base);
 			}
 		}
 	}
@@ -1152,8 +1152,8 @@ void DebriefingState::prepareDebriefing()
 			// recover items from the craft floor
 			for (int i = 0; i < battle->getMapSizeXYZ(); ++i)
 			{
-				if (battle->getTiles()[i]->getMapData(O_FLOOR) && (battle->getTiles()[i]->getMapData(O_FLOOR)->getSpecialType() == START_POINT))
-					recoverItems(battle->getTiles()[i]->getInventory(), base);
+				if (battle->getTiles()[i].getMapData(O_FLOOR) && (battle->getTiles()[i].getMapData(O_FLOOR)->getSpecialType() == START_POINT))
+					recoverItems(battle->getTiles()[i].getInventory(), base);
 			}
 		}
 	}

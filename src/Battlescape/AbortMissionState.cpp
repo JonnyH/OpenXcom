@@ -89,8 +89,8 @@ AbortMissionState::AbortMissionState(SavedBattleGame *battleGame, BattlescapeSta
 		exit = false;
 		for (int i = 0; i < _battleGame->getMapSizeXYZ(); ++i)
 		{
-			Tile *tile = _battleGame->getTiles()[i];
-			if (tile && tile->getMapData(O_FLOOR) && tile->getMapData(O_FLOOR)->getSpecialType() == END_POINT)
+			Tile &tile = _battleGame->getTiles()[i];
+			if (tile.getMapData(O_FLOOR) && tile.getMapData(O_FLOOR)->getSpecialType() == END_POINT)
 			{
 				exit = true;
 				break;
