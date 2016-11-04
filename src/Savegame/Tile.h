@@ -59,18 +59,18 @@ public:
 protected:
 	static const int LIGHTLAYERS = 3;
 	MapData *_objects[4];
+	BattleUnit *_unit;
+	std::vector<BattleItem *> _inventory;
+	std::list<Particle*> _particles;
+	Position _pos;
 	int _mapDataID[4];
 	int _mapDataSetID[4];
 	int _currentFrame[4];
-	bool _discovered[3];
 	int _light[LIGHTLAYERS], _lastLight[LIGHTLAYERS];
 	int _smoke;
 	int _fire;
 	int _explosive;
 	int _explosiveType;
-	Position _pos;
-	BattleUnit *_unit;
-	std::vector<BattleItem *> _inventory;
 	int _animationOffset;
 	int _markerColor;
 	int _visible;
@@ -78,7 +78,7 @@ protected:
 	int _TUMarker;
 	int _overlaps;
 	bool _danger;
-	std::list<Particle*> _particles;
+	bool _discovered[3];
 public:
 	/// Creates a tile.
 	Tile(const Position& pos);
