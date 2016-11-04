@@ -68,6 +68,8 @@ void CutsceneState::init()
 		}
 	}
 
+	return;
+
 	const RuleVideo *videoRule = _game->getMod()->getVideo(_cutsceneId);
 	if (videoRule == 0)
 	{

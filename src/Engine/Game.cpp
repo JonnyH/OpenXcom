@@ -632,6 +632,8 @@ void Game::defaultLanguage()
  */
 void Game::initAudio()
 {
+	Options::mute = true;
+	return;
 	Uint16 format;
 	if (Options::audioBitDepth == 8)
 		format = AUDIO_S8;
