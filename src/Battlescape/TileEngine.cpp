@@ -2429,19 +2429,21 @@ int TileEngine::voxelCheck(const Position& voxel, BattleUnit *excludeUnit, bool 
 	{
 		excludeAllUnits = true; // don't start unit spotting before pre-game inventory stuff (large units on the craftInventory tile will cause a crash if they're "spotted")
 	}
-	Tile *tile = _save->getTile(voxel / Position(16, 16, 24));
+	Position tilePosition = (voxel / Position(16,16,24));
+	Position voxelPositionInTile = Position(voxel.x % 16, voxel.y % 16, voxel.z % 24);
+	Tile *tile = _save->getTile(tilePosition);
 	// check if we are not out of the map
 	if (tile == 0 || voxel.x < 0 || voxel.y < 0 || voxel.z < 0)
 	{
 		return V_OUTOFBOUNDS;
 	}
-	Tile *tileBelow = _save->getTile(tile->getPosition() + Position(0,0,-1));
+	Tile *tileBelow = _save->getTile(tilePosition + Position(0,0,-1));
 	if (tile->isVoid() && tile->getUnit() == 0 && (!tileBelow || tileBelow->getUnit() == 0))
 	{
 		return V_EMPTY;
 	}
 
-	if ((voxel.z % 24 == 0 || voxel.z % 24 == 1) && tile->getMapData(O_FLOOR) && tile->getMapData(O_FLOOR)->isGravLift())
+	if ((voxelPositionInTile.z == 0 || voxelPositionInTile.z == 1) && tile->getMapData(O_FLOOR) && tile->getMapData(O_FLOOR)->isGravLift())
 	{
 		if ((tile->getPosition().z == 0) || (tileBelow && tileBelow->getMapData(O_FLOOR) && !tileBelow->getMapData(O_FLOOR)->isGravLift()))
 			return V_FLOOR;
@@ -2455,9 +2457,9 @@ int TileEngine::voxelCheck(const Position& voxel, BattleUnit *excludeUnit, bool 
 			continue;
 		if (mp != 0)
 		{
-			int x = 15 - voxel.x%16;
-			int y = voxel.y%16;
-			int idx = (mp->getLoftID((voxel.z%24)/2)*16) + y;
+			int x = 15 - voxelPositionInTile.x;
+			int y = voxelPositionInTile.y;
+			int idx = (mp->getLoftID((voxelPositionInTile.z)/2)*16) + y;
 			if (_voxelData->at(idx) & (1 << x))
 			{
 				return i;
@@ -2472,7 +2474,7 @@ int TileEngine::voxelCheck(const Position& voxel, BattleUnit *excludeUnit, bool 
 		// in this case we couldn't have unit standing at current tile.
 		if (unit == 0 && tile->hasNoFloor(0))
 		{
-			tile = _save->getTile(Position(voxel.x/16, voxel.y/16, (voxel.z/24)-1)); //below
+			tile = tileBelow; //below
 			if (tile) unit = tile->getUnit();
 		}
 
@@ -2483,8 +2485,8 @@ int TileEngine::voxelCheck(const Position& voxel, BattleUnit *excludeUnit, bool 
 			int tz = unitpos.z*24 + unit->getFloatHeight()+(-tile->getTerrainLevel());//bottom
 			if ((voxel.z > tz) && (voxel.z <= tz + unit->getHeight()) )
 			{
-				int x = voxel.x%16;
-				int y = voxel.y%16;
+				int x = voxelPositionInTile.x;
+				int y = voxelPositionInTile.y;
 				int part = 0;
 				if (unit->getArmor()->getSize() > 1)
 				{
