@@ -468,6 +468,15 @@ YAML::Node SavedBattleGame::save() const
 }
 
 /**
+ * Gets the array of tiles.
+ * @return A pointer to the Tile array.
+ */
+Tile *SavedBattleGame::getTiles() const
+{
+	return const_cast<Tile*>(&_tiles[0]);
+}
+
+/**
  * Initializes the array of tiles and creates a pathfinding object.
  * @param mapsize_x
  * @param mapsize_y
@@ -1272,9 +1281,9 @@ void SavedBattleGame::prepareNewTurn()
 	// prepare a list of tiles on fire
 	for (int i = 0; i < _mapsize_x * _mapsize_y * _mapsize_z; ++i)
 	{
-		if (getTile(i).getFire() > 0)
+		if (getTiles()[i].getFire() > 0)
 		{
-			tilesOnFire.push_back(&getTile(i));
+			tilesOnFire.push_back(&getTiles()[i]);
 		}
 	}
 
@@ -1341,9 +1350,9 @@ void SavedBattleGame::prepareNewTurn()
 	// prepare a list of tiles on fire/with smoke in them (smoke acts as fire intensity)
 	for (int i = 0; i < _mapsize_x * _mapsize_y * _mapsize_z; ++i)
 	{
-		if (getTile(i).getSmoke() > 0)
+		if (getTiles()[i].getSmoke() > 0)
 		{
-			tilesOnSmoke.push_back(&getTile(i));
+			tilesOnSmoke.push_back(&getTiles()[i]);
 		}
 	}
 
@@ -1404,8 +1413,8 @@ void SavedBattleGame::prepareNewTurn()
 		// do damage to units, average out the smoke, etc.
 		for (int i = 0; i < _mapsize_x * _mapsize_y * _mapsize_z; ++i)
 		{
-			if (getTile(i).getSmoke() != 0)
-				getTile(i).prepareNewTurn();
+			if (getTiles()[i].getSmoke() != 0)
+				getTiles()[i].prepareNewTurn();
 		}
 		// fires could have been started, stopped or smoke could reveal/conceal units.
 		getTileEngine()->calculateTerrainLighting();

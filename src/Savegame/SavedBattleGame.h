@@ -105,14 +105,7 @@ public:
 	/// Gets the global shade.
 	int getGlobalShade() const;
 	/// Gets a pointer to the tiles, a tile is the smallest component of battlescape.
-	const Tile &getTile(int idx) const
-	{
-		return _tiles[idx];
-	}
-	Tile &getTile(int idx)
-	{
-		return _tiles[idx];
-	}
+	Tile *getTiles() const;
 	/// Gets a pointer to the list of nodes.
 	std::vector<Node*> *getNodes();
 	/// Gets a pointer to the list of items.
