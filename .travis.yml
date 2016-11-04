@@ -9,6 +9,7 @@ os:
   - osx
 
 sudo: false
+cache: ccache
 
 addons:
   apt:
