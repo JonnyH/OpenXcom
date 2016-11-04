@@ -473,7 +473,7 @@ YAML::Node SavedBattleGame::save() const
  */
 Tile *SavedBattleGame::getTiles() const
 {
-	return const_cast<Tile*>(_tiles.data());
+	return const_cast<Tile*>(&_tiles[0]);
 }
 
 /**
@@ -505,7 +505,7 @@ void SavedBattleGame::initMap(int mapsize_x, int mapsize_y, int mapsize_z)
 	{
 		Position pos;
 		getTileCoords(i, &pos.x, &pos.y, &pos.z);
-		_tiles.emplace_back(pos);
+		_tiles.push_back(pos);
 	}
 
 }
