@@ -66,8 +66,8 @@ static int opl_dbg_maxchip,opl_dbg_chip;
 
 /* final output shift , limit minimum and maximum */
 #define OPL_OUTSB   (TL_BITS+1-16)		/* OPL output final shift 16bit */
-#define OPL_MAXOUT (0x7fff<<OPL_OUTSB)
-#define OPL_MINOUT (-0x8000<<OPL_OUTSB)
+#define OPL_MAXOUT (((UINT16)0x7fff)<<OPL_OUTSB)
+#define OPL_MINOUT (((UINT16)-0x8000)<<OPL_OUTSB)
 
 /* -------------------- quality selection --------------------- */
 
