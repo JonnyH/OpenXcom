@@ -18,8 +18,8 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <vector>
-#include "../Mod/RuleTerrain.h"
-#include "../Mod/MapScript.h"
+#include "Mod/RuleTerrain.h"
+#include "Mod/MapScript.h"
 
 namespace OpenXcom
 {

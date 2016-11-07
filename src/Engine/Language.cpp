@@ -26,7 +26,7 @@
 #include "Logger.h"
 #include "Options.h"
 #include "LanguagePlurality.h"
-#include "../Mod/ExtraStrings.h"
+#include "Mod/ExtraStrings.h"
 #ifdef _WIN32
 #ifndef NOMINMAX
 #define NOMINMAX

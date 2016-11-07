@@ -19,8 +19,8 @@
 #include <assert.h>
 #include "AlienStrategy.h"
 #include "WeightedOptions.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleRegion.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleRegion.h"
 
 namespace OpenXcom
 {

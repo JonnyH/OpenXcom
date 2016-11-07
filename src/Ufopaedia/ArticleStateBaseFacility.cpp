@@ -19,17 +19,17 @@
 
 #include <sstream>
 #include "ArticleStateBaseFacility.h"
-#include "../Mod/ArticleDefinition.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleBaseFacility.h"
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Surface.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/TextList.h"
+#include "Mod/ArticleDefinition.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleBaseFacility.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/Surface.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Interface/TextList.h"
 
 namespace OpenXcom
 {

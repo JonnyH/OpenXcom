@@ -21,7 +21,7 @@
 #include <vector>
 #include <string>
 #include <map>
-#include "../Interface/Text.h"
+#include "Interface/Text.h"
 
 namespace OpenXcom
 {

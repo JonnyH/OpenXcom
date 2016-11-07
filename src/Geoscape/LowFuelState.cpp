@@ -17,15 +17,15 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "LowFuelState.h"
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Savegame/Craft.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Savegame/Craft.h"
 #include "GeoscapeState.h"
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

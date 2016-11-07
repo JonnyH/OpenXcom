@@ -21,7 +21,7 @@
 #include <string>
 #include <sstream>
 #include "GameTime.h"
-#include "../Engine/Language.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

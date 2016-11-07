@@ -21,7 +21,7 @@
 #include <string>
 #include <yaml-cpp/yaml.h>
 #include "BattleUnit.h"
-#include "../Mod/AlienDeployment.h"
+#include "Mod/AlienDeployment.h"
 
 namespace OpenXcom
 {

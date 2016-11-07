@@ -17,17 +17,17 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "PlaceStartFacilityState.h"
-#include "../Engine/Game.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Text.h"
 #include "BaseView.h"
-#include "../Savegame/Base.h"
-#include "../Savegame/BaseFacility.h"
-#include "../Mod/RuleBaseFacility.h"
-#include "../Menu/ErrorMessageState.h"
+#include "Savegame/Base.h"
+#include "Savegame/BaseFacility.h"
+#include "Mod/RuleBaseFacility.h"
+#include "Menu/ErrorMessageState.h"
 #include "SelectStartFacilityState.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleInterface.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleInterface.h"
 
 namespace OpenXcom
 {

@@ -17,16 +17,16 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "CraftPatrolState.h"
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Savegame/Craft.h"
-#include "../Savegame/Target.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Savegame/Craft.h"
+#include "Savegame/Target.h"
 #include "GeoscapeCraftState.h"
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

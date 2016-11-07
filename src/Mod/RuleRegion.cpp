@@ -19,7 +19,7 @@
 #include <assert.h>
 #include "RuleRegion.h"
 #include "City.h"
-#include "../Engine/RNG.h"
+#include "Engine/RNG.h"
 
 namespace OpenXcom
 {

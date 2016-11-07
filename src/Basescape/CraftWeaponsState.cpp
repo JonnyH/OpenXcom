@@ -18,19 +18,19 @@
  */
 #include "CraftWeaponsState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Options.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Savegame/Craft.h"
-#include "../Savegame/CraftWeapon.h"
-#include "../Mod/RuleCraftWeapon.h"
-#include "../Savegame/ItemContainer.h"
-#include "../Savegame/Base.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Options.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Savegame/Craft.h"
+#include "Savegame/CraftWeapon.h"
+#include "Mod/RuleCraftWeapon.h"
+#include "Savegame/ItemContainer.h"
+#include "Savegame/Base.h"
 
 namespace OpenXcom
 {

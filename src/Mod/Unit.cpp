@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Unit.h"
-#include "../Engine/Exception.h"
+#include "Engine/Exception.h"
 #include "Mod.h"
 
 namespace OpenXcom

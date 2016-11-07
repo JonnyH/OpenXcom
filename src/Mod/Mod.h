@@ -22,8 +22,8 @@
 #include <string>
 #include <SDL.h>
 #include <yaml-cpp/yaml.h>
-#include "../Engine/Options.h"
-#include "../Savegame/GameTime.h"
+#include "Engine/Options.h"
+#include "Savegame/GameTime.h"
 #include "Unit.h"
 #include "RuleAlienMission.h"
 

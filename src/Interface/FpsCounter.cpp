@@ -19,9 +19,9 @@
 
 #include "FpsCounter.h"
 #include <cmath>
-#include "../Engine/Action.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Options.h"
+#include "Engine/Action.h"
+#include "Engine/Timer.h"
+#include "Engine/Options.h"
 #include "NumberText.h"
 
 namespace OpenXcom

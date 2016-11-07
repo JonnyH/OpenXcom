@@ -19,7 +19,7 @@
  */
 #include <string>
 #include <yaml-cpp/yaml.h>
-#include "../Savegame/CraftWeaponProjectile.h"
+#include "Savegame/CraftWeaponProjectile.h"
 
 namespace OpenXcom
 {

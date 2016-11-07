@@ -19,8 +19,8 @@
 #include "Target.h"
 #include "Craft.h"
 #include "SerializationHelper.h"
-#include "../fmath.h"
-#include "../Engine/Language.h"
+#include "fmath.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

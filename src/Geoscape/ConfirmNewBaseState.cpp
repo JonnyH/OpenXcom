@@ -17,20 +17,20 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ConfirmNewBaseState.h"
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/Region.h"
-#include "../Mod/RuleRegion.h"
-#include "../Savegame/Base.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/Region.h"
+#include "Mod/RuleRegion.h"
+#include "Savegame/Base.h"
 #include "BaseNameState.h"
-#include "../Menu/ErrorMessageState.h"
-#include "../Engine/Options.h"
-#include "../Mod/RuleInterface.h"
+#include "Menu/ErrorMessageState.h"
+#include "Engine/Options.h"
+#include "Mod/RuleInterface.h"
 
 namespace OpenXcom
 {

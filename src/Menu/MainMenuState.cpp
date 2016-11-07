@@ -18,20 +18,20 @@
  */
 #include "MainMenuState.h"
 #include <sstream>
-#include "../version.h"
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Language.h"
-#include "../Engine/Screen.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
+#include "version.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/Language.h"
+#include "Engine/Screen.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
 #include "NewGameState.h"
 #include "NewBattleState.h"
 #include "ListLoadState.h"
 #include "OptionsVideoState.h"
-#include "../Engine/Screen.h"
-#include "../Engine/Options.h"
+#include "Engine/Screen.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

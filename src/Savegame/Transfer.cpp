@@ -21,9 +21,9 @@
 #include "Soldier.h"
 #include "Craft.h"
 #include "ItemContainer.h"
-#include "../Engine/Language.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Logger.h"
+#include "Engine/Language.h"
+#include "Mod/Mod.h"
+#include "Engine/Logger.h"
 
 namespace OpenXcom
 {

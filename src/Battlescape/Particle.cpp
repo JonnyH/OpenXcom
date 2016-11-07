@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "../Engine/RNG.h"
+#include "Engine/RNG.h"
 #include "Particle.h"
 
 namespace OpenXcom

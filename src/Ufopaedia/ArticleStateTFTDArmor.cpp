@@ -18,16 +18,16 @@
  */
 
 #include <sstream>
-#include "../fmath.h"
+#include "fmath.h"
 #include "ArticleStateTFTD.h"
 #include "ArticleStateTFTDArmor.h"
-#include "../Mod/ArticleDefinition.h"
-#include "../Mod/Mod.h"
-#include "../Mod/Armor.h"
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextList.h"
+#include "Mod/ArticleDefinition.h"
+#include "Mod/Mod.h"
+#include "Mod/Armor.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextList.h"
 
 namespace OpenXcom
 {

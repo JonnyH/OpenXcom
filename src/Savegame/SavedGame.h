@@ -23,8 +23,8 @@
 #include <time.h>
 #include <stdint.h>
 #include "GameTime.h"
-#include "../Mod/RuleAlienMission.h"
-#include "../Savegame/Craft.h"
+#include "Mod/RuleAlienMission.h"
+#include "Savegame/Craft.h"
 
 namespace OpenXcom
 {

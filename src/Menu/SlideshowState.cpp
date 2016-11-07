@@ -18,16 +18,16 @@
  */
 #include "SlideshowState.h"
 #include "CutsceneState.h"
-#include "../Engine/FileMap.h"
-#include "../Engine/Game.h"
-#include "../Engine/InteractiveSurface.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Screen.h"
-#include "../Engine/Timer.h"
-#include "../Interface/Text.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Options.h"
-#include "../Interface/Cursor.h"
+#include "Engine/FileMap.h"
+#include "Engine/Game.h"
+#include "Engine/InteractiveSurface.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Screen.h"
+#include "Engine/Timer.h"
+#include "Interface/Text.h"
+#include "Mod/Mod.h"
+#include "Engine/Options.h"
+#include "Interface/Cursor.h"
 
 namespace OpenXcom
 {

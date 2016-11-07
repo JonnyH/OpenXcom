@@ -18,7 +18,7 @@
  */
 #include "RuleVideo.h"
 #include <climits>
-#include "../Engine/Screen.h"
+#include "Engine/Screen.h"
 
 namespace OpenXcom
 {

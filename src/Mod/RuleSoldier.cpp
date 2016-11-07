@@ -19,7 +19,7 @@
 #include "RuleSoldier.h"
 #include "Mod.h"
 #include "SoldierNamePool.h"
-#include "../Engine/FileMap.h"
+#include "Engine/FileMap.h"
 
 namespace OpenXcom
 {

@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "RuleMissionScript.h"
-#include "../Engine/Exception.h"
+#include "Engine/Exception.h"
 
 namespace OpenXcom
 {

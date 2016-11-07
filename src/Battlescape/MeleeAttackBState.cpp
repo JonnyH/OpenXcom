@@ -24,14 +24,14 @@
 #include "Map.h"
 #include "Camera.h"
 #include "AIModule.h"
-#include "../Savegame/Tile.h"
-#include "../Engine/RNG.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Savegame/BattleItem.h"
-#include "../Engine/Sound.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleItem.h"
+#include "Savegame/Tile.h"
+#include "Engine/RNG.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Savegame/BattleUnit.h"
+#include "Savegame/BattleItem.h"
+#include "Engine/Sound.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleItem.h"
 
 namespace OpenXcom
 {

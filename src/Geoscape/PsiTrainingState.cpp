@@ -18,17 +18,17 @@
  */
 #include <sstream>
 #include "PsiTrainingState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Action.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/Base.h"
+#include "Engine/Game.h"
+#include "Engine/Action.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/Base.h"
 #include "AllocatePsiTrainingState.h"
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

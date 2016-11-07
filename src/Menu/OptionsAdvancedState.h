@@ -18,7 +18,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "OptionsBaseState.h"
-#include "../Engine/OptionInfo.h"
+#include "Engine/OptionInfo.h"
 #include <vector>
 #include <string>
 

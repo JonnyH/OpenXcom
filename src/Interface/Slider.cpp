@@ -17,9 +17,9 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Slider.h"
-#include "../fmath.h"
+#include "fmath.h"
 #include <algorithm>
-#include "../Engine/Action.h"
+#include "Engine/Action.h"
 #include "TextButton.h"
 #include "Text.h"
 #include "Frame.h"

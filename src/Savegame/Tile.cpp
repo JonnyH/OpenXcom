@@ -18,17 +18,17 @@
  */
 #include "Tile.h"
 #include <algorithm>
-#include "../Mod/MapData.h"
-#include "../Mod/MapDataSet.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Surface.h"
-#include "../Engine/RNG.h"
+#include "Mod/MapData.h"
+#include "Mod/MapDataSet.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Surface.h"
+#include "Engine/RNG.h"
 #include "BattleUnit.h"
 #include "BattleItem.h"
-#include "../Mod/RuleItem.h"
-#include "../Mod/Armor.h"
+#include "Mod/RuleItem.h"
+#include "Mod/Armor.h"
 #include "SerializationHelper.h"
-#include "../Battlescape/Particle.h"
+#include "Battlescape/Particle.h"
 
 namespace OpenXcom
 {

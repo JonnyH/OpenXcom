@@ -27,17 +27,17 @@
 #include "Music.h"
 #include "Language.h"
 #include "Logger.h"
-#include "../Interface/Cursor.h"
-#include "../Interface/FpsCounter.h"
-#include "../Mod/Mod.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/SavedBattleGame.h"
+#include "Interface/Cursor.h"
+#include "Interface/FpsCounter.h"
+#include "Mod/Mod.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/SavedBattleGame.h"
 #include "Action.h"
 #include "Exception.h"
 #include "Options.h"
 #include "CrossPlatform.h"
 #include "FileMap.h"
-#include "../Menu/TestState.h"
+#include "Menu/TestState.h"
 
 namespace OpenXcom
 {

@@ -20,11 +20,11 @@
 #include <vector>
 #include <string>
 #include <yaml-cpp/yaml.h>
-#include "../Battlescape/Position.h"
-#include "../Battlescape/BattlescapeGame.h"
-#include "../Mod/RuleItem.h"
-#include "../Mod/Unit.h"
-#include "../Mod/MapData.h"
+#include "Battlescape/Position.h"
+#include "Battlescape/BattlescapeGame.h"
+#include "Mod/RuleItem.h"
+#include "Mod/Unit.h"
+#include "Mod/MapData.h"
 #include "Soldier.h"
 #include "BattleItem.h"
 

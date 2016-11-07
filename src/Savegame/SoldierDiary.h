@@ -20,7 +20,7 @@
 #include <yaml-cpp/yaml.h>
 #include "BattleUnit.h"
 #include "SavedGame.h"
-#include "../Mod/Mod.h"
+#include "Mod/Mod.h"
 
 namespace OpenXcom
 {

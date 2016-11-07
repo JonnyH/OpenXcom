@@ -20,21 +20,21 @@
 #include <iostream>
 #include <fstream>
 #include <SDL.h>
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Screen.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/Surface.h"
-#include "../Engine/Exception.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Interface/NumberText.h"
-#include "../Interface/Slider.h"
-#include "../Interface/ComboBox.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Palette.h"
+#include "Engine/Screen.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/Surface.h"
+#include "Engine/Exception.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Interface/NumberText.h"
+#include "Interface/Slider.h"
+#include "Interface/ComboBox.h"
 
 namespace OpenXcom
 {

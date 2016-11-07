@@ -19,9 +19,9 @@
 #include "CraftWeapon.h"
 #include <cmath>
 #include <algorithm>
-#include "../Mod/RuleCraftWeapon.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleItem.h"
+#include "Mod/RuleCraftWeapon.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleItem.h"
 #include "CraftWeaponProjectile.h"
 
 namespace OpenXcom

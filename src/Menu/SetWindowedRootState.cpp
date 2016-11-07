@@ -19,15 +19,15 @@
 #include "SetWindowedRootState.h"
 #include <string>
 #include <sstream>
-#include "../Interface/Window.h"
-#include "../Interface/TextButton.h"
-#include "../Engine/Game.h"
-#include "../Savegame/SavedGame.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Text.h"
+#include "Interface/Window.h"
+#include "Interface/TextButton.h"
+#include "Engine/Game.h"
+#include "Savegame/SavedGame.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Text.h"
 #include "OptionsVideoState.h"
-#include "../Interface/TextEdit.h"
+#include "Interface/TextEdit.h"
 
 namespace OpenXcom
 {

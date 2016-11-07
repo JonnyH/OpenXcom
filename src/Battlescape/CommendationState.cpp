@@ -18,17 +18,17 @@
  */
 #include "CommendationState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Language.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Savegame/Soldier.h"
-#include "../Savegame/SoldierDiary.h"
-#include "../Engine/Options.h"
-#include "../Mod/RuleCommendations.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/Language.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Savegame/Soldier.h"
+#include "Savegame/SoldierDiary.h"
+#include "Engine/Options.h"
+#include "Mod/RuleCommendations.h"
 
 namespace OpenXcom
 {

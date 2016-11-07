@@ -21,8 +21,8 @@
 #include "UnitTurnBState.h"
 #include "ProjectileFlyBState.h"
 #include "TileEngine.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Engine/RNG.h"
+#include "Savegame/BattleUnit.h"
+#include "Engine/RNG.h"
 
 namespace OpenXcom
 {

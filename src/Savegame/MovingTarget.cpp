@@ -17,9 +17,9 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "MovingTarget.h"
-#include "../fmath.h"
+#include "fmath.h"
 #include "SerializationHelper.h"
-#include "../Engine/Options.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

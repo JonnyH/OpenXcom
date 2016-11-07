@@ -18,7 +18,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <vector>
-#include "../Engine/InteractiveSurface.h"
+#include "Engine/InteractiveSurface.h"
 
 namespace OpenXcom
 {

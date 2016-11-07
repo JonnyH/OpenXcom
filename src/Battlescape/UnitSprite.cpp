@@ -17,17 +17,17 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "UnitSprite.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Mod/RuleItem.h"
-#include "../Mod/Armor.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Savegame/BattleItem.h"
-#include "../Savegame/Soldier.h"
-#include "../Mod/RuleInventory.h"
-#include "../Engine/ShaderDraw.h"
-#include "../Engine/ShaderMove.h"
-#include "../Engine/Options.h"
-#include "../fmath.h"
+#include "Engine/SurfaceSet.h"
+#include "Mod/RuleItem.h"
+#include "Mod/Armor.h"
+#include "Savegame/BattleUnit.h"
+#include "Savegame/BattleItem.h"
+#include "Savegame/Soldier.h"
+#include "Mod/RuleInventory.h"
+#include "Engine/ShaderDraw.h"
+#include "Engine/ShaderMove.h"
+#include "Engine/Options.h"
+#include "fmath.h"
 
 namespace OpenXcom
 {

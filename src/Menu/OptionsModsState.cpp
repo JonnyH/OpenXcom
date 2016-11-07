@@ -19,15 +19,15 @@
 #include "OptionsModsState.h"
 #include <climits>
 #include <algorithm>
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Language.h"
-#include "../Interface/Window.h"
-#include "../Interface/TextList.h"
-#include "../Interface/Text.h"
-#include "../Interface/ComboBox.h"
-#include "../Engine/Options.h"
-#include "../Engine/Action.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/Language.h"
+#include "Interface/Window.h"
+#include "Interface/TextList.h"
+#include "Interface/Text.h"
+#include "Interface/ComboBox.h"
+#include "Engine/Options.h"
+#include "Engine/Action.h"
 
 namespace OpenXcom
 {

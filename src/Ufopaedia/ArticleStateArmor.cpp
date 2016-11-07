@@ -18,20 +18,20 @@
  */
 
 #include <sstream>
-#include "../fmath.h"
+#include "fmath.h"
 #include "ArticleStateArmor.h"
-#include "../Mod/ArticleDefinition.h"
-#include "../Mod/Mod.h"
-#include "../Mod/Armor.h"
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Surface.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/FileMap.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/TextList.h"
+#include "Mod/ArticleDefinition.h"
+#include "Mod/Mod.h"
+#include "Mod/Armor.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/Surface.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/FileMap.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Interface/TextList.h"
 
 namespace OpenXcom
 {

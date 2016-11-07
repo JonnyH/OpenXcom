@@ -17,8 +17,8 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "RuleCountry.h"
-#include "../Engine/RNG.h"
-#include "../fmath.h"
+#include "Engine/RNG.h"
+#include "fmath.h"
 
 namespace OpenXcom
 {

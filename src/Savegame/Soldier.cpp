@@ -17,18 +17,18 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Soldier.h"
-#include "../Engine/RNG.h"
-#include "../Engine/Language.h"
-#include "../Engine/Options.h"
+#include "Engine/RNG.h"
+#include "Engine/Language.h"
+#include "Engine/Options.h"
 #include "Craft.h"
 #include "EquipmentLayoutItem.h"
 #include "SoldierDeath.h"
 #include "SoldierDiary.h"
-#include "../Mod/SoldierNamePool.h"
-#include "../Mod/RuleSoldier.h"
-#include "../Mod/Armor.h"
-#include "../Mod/Mod.h"
-#include "../Mod/StatString.h"
+#include "Mod/SoldierNamePool.h"
+#include "Mod/RuleSoldier.h"
+#include "Mod/Armor.h"
+#include "Mod/Mod.h"
+#include "Mod/StatString.h"
 
 namespace OpenXcom
 {

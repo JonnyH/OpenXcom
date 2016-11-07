@@ -17,12 +17,12 @@
  * You should have received a copy of the GNU General Public License
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "../Engine/State.h"
+#include "Engine/State.h"
 #include "OptionsBaseState.h"
 #include <vector>
 #include <string>
-#include "../Savegame/SavedGame.h"
-#include "../Engine/Options.h"
+#include "Savegame/SavedGame.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

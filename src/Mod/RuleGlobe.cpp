@@ -19,14 +19,14 @@
 #include "RuleGlobe.h"
 #include <SDL_endian.h>
 #include <fstream>
-#include "../Engine/Exception.h"
+#include "Engine/Exception.h"
 #include "Polygon.h"
 #include "Polyline.h"
 #include "Texture.h"
-#include "../Engine/Palette.h"
-#include "../Geoscape/Globe.h"
-#include "../Engine/FileMap.h"
-#include "../fmath.h"
+#include "Engine/Palette.h"
+#include "Geoscape/Globe.h"
+#include "Engine/FileMap.h"
+#include "fmath.h"
 
 namespace OpenXcom
 {

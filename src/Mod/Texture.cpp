@@ -17,8 +17,8 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Texture.h"
-#include "../Savegame/Target.h"
-#include "../Engine/RNG.h"
+#include "Savegame/Target.h"
+#include "Engine/RNG.h"
 
 namespace OpenXcom
 {

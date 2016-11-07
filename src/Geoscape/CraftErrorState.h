@@ -18,7 +18,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <string>
-#include "../Engine/State.h"
+#include "Engine/State.h"
 
 namespace OpenXcom
 {

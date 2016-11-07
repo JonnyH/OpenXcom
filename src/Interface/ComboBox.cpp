@@ -21,11 +21,11 @@
 #include "TextButton.h"
 #include "Window.h"
 #include "TextList.h"
-#include "../Engine/State.h"
-#include "../Engine/Language.h"
-#include "../Engine/Font.h"
-#include "../Engine/Action.h"
-#include "../Engine/Options.h"
+#include "Engine/State.h"
+#include "Engine/Language.h"
+#include "Engine/Font.h"
+#include "Engine/Action.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

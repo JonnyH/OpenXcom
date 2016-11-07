@@ -21,7 +21,7 @@
 #include <vector>
 #include <map>
 #include <yaml-cpp/yaml.h>
-#include "../Savegame/WeightedOptions.h"
+#include "Savegame/WeightedOptions.h"
 
 namespace OpenXcom
 {

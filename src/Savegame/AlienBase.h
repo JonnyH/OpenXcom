@@ -19,7 +19,7 @@
  */
 #include "Target.h"
 #include <string>
-#include "../Mod/AlienDeployment.h"
+#include "Mod/AlienDeployment.h"
 #include <yaml-cpp/yaml.h>
 
 namespace OpenXcom

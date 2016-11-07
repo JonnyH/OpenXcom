@@ -17,14 +17,14 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ScannerView.h"
-#include "../Engine/Game.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Action.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Savegame/Tile.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/SavedBattleGame.h"
+#include "Engine/Game.h"
+#include "Engine/SurfaceSet.h"
+#include "Mod/Mod.h"
+#include "Engine/Action.h"
+#include "Savegame/BattleUnit.h"
+#include "Savegame/Tile.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/SavedBattleGame.h"
 
 namespace OpenXcom
 {

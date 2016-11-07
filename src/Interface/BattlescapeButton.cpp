@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "BattlescapeButton.h"
-#include "../Engine/Action.h"
+#include "Engine/Action.h"
 
 namespace OpenXcom
 {

@@ -17,11 +17,11 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ActionMenuItem.h"
-#include "../Interface/Text.h"
-#include "../Interface/Frame.h"
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleInterface.h"
+#include "Interface/Text.h"
+#include "Interface/Frame.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleInterface.h"
 
 namespace OpenXcom
 {

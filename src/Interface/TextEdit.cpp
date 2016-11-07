@@ -18,10 +18,10 @@
  */
 #include "TextEdit.h"
 #include <cmath>
-#include "../Engine/Action.h"
-#include "../Engine/Font.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Options.h"
+#include "Engine/Action.h"
+#include "Engine/Font.h"
+#include "Engine/Timer.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

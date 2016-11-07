@@ -18,9 +18,9 @@
  */
 #include "SoldierNamePool.h"
 #include <sstream>
-#include "../Savegame/Soldier.h"
-#include "../Engine/RNG.h"
-#include "../Engine/Language.h"
+#include "Savegame/Soldier.h"
+#include "Engine/RNG.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

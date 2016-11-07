@@ -20,7 +20,7 @@
 #ifndef OPENXCOM_NEWPOSSIBLERESEARCHSTATE
 #define OPENXCOM_NEWPOSSIBLERESEARCHSTATE
 
-#include "../Engine/State.h"
+#include "Engine/State.h"
 namespace OpenXcom
 {
 

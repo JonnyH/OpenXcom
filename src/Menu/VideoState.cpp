@@ -19,20 +19,20 @@
 #include "VideoState.h"
 #include <algorithm>
 #include <SDL_mixer.h>
-#include "../Engine/Adlib/adlplayer.h"
-#include "../Engine/Logger.h"
-#include "../Engine/Game.h"
-#include "../Engine/Options.h"
-#include "../Engine/FlcPlayer.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/FileMap.h"
-#include "../Engine/Screen.h"
-#include "../Engine/Music.h"
-#include "../Engine/Sound.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleVideo.h"
+#include "Engine/Adlib/adlplayer.h"
+#include "Engine/Logger.h"
+#include "Engine/Game.h"
+#include "Engine/Options.h"
+#include "Engine/FlcPlayer.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/FileMap.h"
+#include "Engine/Screen.h"
+#include "Engine/Music.h"
+#include "Engine/Sound.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleVideo.h"
 #include "CutsceneState.h"
-#include "../Interface/Cursor.h"
+#include "Interface/Cursor.h"
 
 namespace OpenXcom
 {

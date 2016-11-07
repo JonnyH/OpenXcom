@@ -20,9 +20,9 @@
 #include "MapData.h"
 #include <fstream>
 #include <SDL_endian.h>
-#include "../Engine/Exception.h"
-#include "../Engine/SurfaceSet.h"
-#include "../Engine/FileMap.h"
+#include "Engine/Exception.h"
+#include "Engine/SurfaceSet.h"
+#include "Engine/FileMap.h"
 
 namespace OpenXcom
 {

@@ -17,13 +17,13 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Craft.h"
-#include "../fmath.h"
-#include "../Engine/Language.h"
-#include "../Engine/RNG.h"
-#include "../Mod/RuleCraft.h"
+#include "fmath.h"
+#include "Engine/Language.h"
+#include "Engine/RNG.h"
+#include "Mod/RuleCraft.h"
 #include "CraftWeapon.h"
-#include "../Mod/RuleCraftWeapon.h"
-#include "../Mod/Mod.h"
+#include "Mod/RuleCraftWeapon.h"
+#include "Mod/Mod.h"
 #include "SavedGame.h"
 #include "ItemContainer.h"
 #include "Soldier.h"
@@ -33,9 +33,9 @@
 #include "MissionSite.h"
 #include "AlienBase.h"
 #include "Vehicle.h"
-#include "../Mod/RuleItem.h"
-#include "../Mod/AlienDeployment.h"
-#include "../Engine/Logger.h"
+#include "Mod/RuleItem.h"
+#include "Mod/AlienDeployment.h"
+#include "Engine/Logger.h"
 
 namespace OpenXcom
 {

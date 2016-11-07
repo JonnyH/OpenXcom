@@ -18,8 +18,8 @@
  */
 #include "SoldierDiary.h"
 #include <algorithm>
-#include "../Mod/RuleCommendations.h"
-#include "../Mod/Mod.h"
+#include "Mod/RuleCommendations.h"
+#include "Mod/Mod.h"
 #include "BattleUnitStatistics.h"
 #include "MissionStatistics.h"
 

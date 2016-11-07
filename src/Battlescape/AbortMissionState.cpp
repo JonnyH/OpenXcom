@@ -18,19 +18,19 @@
  */
 #include "AbortMissionState.h"
 #include <vector>
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Engine/Action.h"
-#include "../Savegame/SavedBattleGame.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Engine/Action.h"
+#include "Savegame/SavedBattleGame.h"
 #include "BattlescapeState.h"
-#include "../Engine/Options.h"
-#include "../Mod/AlienDeployment.h"
-#include "../Mod/MapScript.h"
-#include "../Savegame/Tile.h"
+#include "Engine/Options.h"
+#include "Mod/AlienDeployment.h"
+#include "Mod/MapScript.h"
+#include "Savegame/Tile.h"
 
 namespace OpenXcom
 {

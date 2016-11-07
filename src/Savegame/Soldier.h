@@ -19,8 +19,8 @@
  */
 #include <string>
 #include <yaml-cpp/yaml.h>
-#include "../Mod/Unit.h"
-#include "../Mod/StatString.h"
+#include "Mod/Unit.h"
+#include "Mod/StatString.h"
 	 
 namespace OpenXcom
 {

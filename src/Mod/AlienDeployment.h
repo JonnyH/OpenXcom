@@ -21,7 +21,7 @@
 #include <string>
 #include <yaml-cpp/yaml.h>
 #include "Mod.h"
-#include "../Savegame/WeightedOptions.h"
+#include "Savegame/WeightedOptions.h"
 
 namespace OpenXcom
 {

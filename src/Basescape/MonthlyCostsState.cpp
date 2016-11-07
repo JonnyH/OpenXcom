@@ -18,18 +18,18 @@
  */
 #include "MonthlyCostsState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Options.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Savegame/Base.h"
-#include "../Savegame/SavedGame.h"
-#include "../Mod/RuleCraft.h"
-#include "../Mod/RuleSoldier.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Options.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Savegame/Base.h"
+#include "Savegame/SavedGame.h"
+#include "Mod/RuleCraft.h"
+#include "Mod/RuleSoldier.h"
 
 namespace OpenXcom
 {

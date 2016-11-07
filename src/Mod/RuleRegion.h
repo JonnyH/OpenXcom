@@ -20,8 +20,8 @@
 #include <string>
 #include <vector>
 #include <yaml-cpp/yaml.h>
-#include "../fmath.h"
-#include "../Savegame/WeightedOptions.h"
+#include "fmath.h"
+#include "Savegame/WeightedOptions.h"
 
 namespace OpenXcom
 {

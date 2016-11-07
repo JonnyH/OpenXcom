@@ -17,17 +17,17 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "DeleteGameState.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Game.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Text.h"
-#include "../Interface/Window.h"
-#include "../Interface/TextButton.h"
-#include "../Mod/Mod.h"
-#include "../Engine/Options.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Game.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Text.h"
+#include "Interface/Window.h"
+#include "Interface/TextButton.h"
+#include "Mod/Mod.h"
+#include "Engine/Options.h"
 #include "ErrorMessageState.h"
-#include "../Savegame/SavedGame.h"
-#include "../Mod/RuleInterface.h"
+#include "Savegame/SavedGame.h"
+#include "Mod/RuleInterface.h"
 
 namespace OpenXcom
 {

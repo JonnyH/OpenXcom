@@ -17,20 +17,20 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "../Mod/ArticleDefinition.h"
+#include "Mod/ArticleDefinition.h"
 #include "ArticleStateVehicle.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Palette.h"
-#include "../Engine/Surface.h"
-#include "../Mod/Mod.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/TextList.h"
-#include "../Mod/Unit.h"
-#include "../Mod/Armor.h"
-#include "../Mod/RuleItem.h"
+#include "Engine/Game.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Palette.h"
+#include "Engine/Surface.h"
+#include "Mod/Mod.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Interface/TextList.h"
+#include "Mod/Unit.h"
+#include "Mod/Armor.h"
+#include "Mod/RuleItem.h"
 
 namespace OpenXcom
 {

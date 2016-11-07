@@ -17,19 +17,19 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "MiniMapState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Screen.h"
-#include "../Interface/BattlescapeButton.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Palette.h"
-#include "../Interface/Text.h"
+#include "Engine/Game.h"
+#include "Engine/Screen.h"
+#include "Interface/BattlescapeButton.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Palette.h"
+#include "Interface/Text.h"
 #include "MiniMapView.h"
 #include "Camera.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Action.h"
-#include "../Engine/Options.h"
-#include "../Savegame/SavedBattleGame.h"
+#include "Engine/Timer.h"
+#include "Engine/Action.h"
+#include "Engine/Options.h"
+#include "Savegame/SavedBattleGame.h"
 
 namespace OpenXcom
 {

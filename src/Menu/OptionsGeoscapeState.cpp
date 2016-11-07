@@ -17,14 +17,14 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "OptionsGeoscapeState.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Text.h"
-#include "../Interface/Slider.h"
-#include "../Interface/ToggleTextButton.h"
-#include "../Interface/ComboBox.h"
-#include "../Engine/Action.h"
-#include "../Engine/Options.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextButton.h"
+#include "Interface/Text.h"
+#include "Interface/Slider.h"
+#include "Interface/ToggleTextButton.h"
+#include "Interface/ComboBox.h"
+#include "Engine/Action.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

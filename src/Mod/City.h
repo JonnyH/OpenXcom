@@ -18,7 +18,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include <string>
-#include "../Savegame/Target.h"
+#include "Savegame/Target.h"
 
 namespace OpenXcom
 {

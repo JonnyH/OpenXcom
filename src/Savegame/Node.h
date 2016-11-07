@@ -17,7 +17,7 @@
  * You should have received a copy of the GNU General Public License
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
-#include "../Battlescape/Position.h"
+#include "Battlescape/Position.h"
 #include <yaml-cpp/yaml.h>
 
 namespace OpenXcom

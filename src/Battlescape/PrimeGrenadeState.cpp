@@ -18,17 +18,17 @@
  */
 #include "PrimeGrenadeState.h"
 #include <sstream>
-#include "../Engine/Game.h"
-#include "../Engine/LocalizedText.h"
-#include "../Engine/Action.h"
-#include "../Interface/Text.h"
-#include "../Interface/Frame.h"
-#include "../Engine/InteractiveSurface.h"
-#include "../Savegame/BattleItem.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleInterface.h"
+#include "Engine/Game.h"
+#include "Engine/LocalizedText.h"
+#include "Engine/Action.h"
+#include "Interface/Text.h"
+#include "Interface/Frame.h"
+#include "Engine/InteractiveSurface.h"
+#include "Savegame/BattleItem.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleInterface.h"
 
 namespace OpenXcom
 {

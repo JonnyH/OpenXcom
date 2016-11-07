@@ -19,8 +19,8 @@
 
 #include "MapScript.h"
 #include <yaml-cpp/yaml.h>
-#include "../Engine/RNG.h"
-#include "../Engine/Exception.h"
+#include "Engine/RNG.h"
+#include "Engine/Exception.h"
 
 
 namespace OpenXcom

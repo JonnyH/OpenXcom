@@ -18,16 +18,16 @@
  */
 #include "Production.h"
 #include <algorithm>
-#include "../Mod/RuleManufacture.h"
+#include "Mod/RuleManufacture.h"
 #include "Base.h"
 #include "SavedGame.h"
 #include "ItemContainer.h"
 #include "Craft.h"
 #include "CraftWeapon.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleItem.h"
-#include "../Mod/RuleCraft.h"
-#include "../Mod/RuleCraftWeapon.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleItem.h"
+#include "Mod/RuleCraft.h"
+#include "Mod/RuleCraftWeapon.h"
 #include <climits>
 #include "BaseFacility.h"
 

@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Polygon.h"
-#include "../fmath.h"
+#include "fmath.h"
 
 namespace OpenXcom
 {

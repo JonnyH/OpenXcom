@@ -18,19 +18,19 @@
  */
 #include "SaveGameState.h"
 #include <sstream>
-#include "../Engine/Logger.h"
-#include "../Engine/Game.h"
-#include "../Engine/Exception.h"
-#include "../Engine/Options.h"
-#include "../Engine/Screen.h"
-#include "../Engine/CrossPlatform.h"
-#include "../Engine/Language.h"
-#include "../Interface/Text.h"
+#include "Engine/Logger.h"
+#include "Engine/Game.h"
+#include "Engine/Exception.h"
+#include "Engine/Options.h"
+#include "Engine/Screen.h"
+#include "Engine/CrossPlatform.h"
+#include "Engine/Language.h"
+#include "Interface/Text.h"
 #include "ErrorMessageState.h"
 #include "MainMenuState.h"
-#include "../Savegame/SavedGame.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleInterface.h"
+#include "Savegame/SavedGame.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleInterface.h"
 
 namespace OpenXcom
 {

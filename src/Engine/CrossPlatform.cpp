@@ -29,7 +29,7 @@
 #include <time.h>
 #include <sys/stat.h>
 #include <signal.h>
-#include "../dirent.h"
+#include "dirent_compat.h"
 #include "Logger.h"
 #include "Exception.h"
 #include "Options.h"

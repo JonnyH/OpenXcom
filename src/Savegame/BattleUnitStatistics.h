@@ -20,7 +20,7 @@
 #include <sstream>
 #include <yaml-cpp/yaml.h>
 #include "BattleUnit.h"
-#include "../Engine/Language.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

@@ -18,8 +18,8 @@
  */
 #include "ArrowButton.h"
 #include "TextList.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Action.h"
+#include "Engine/Timer.h"
+#include "Engine/Action.h"
 
 namespace OpenXcom
 {

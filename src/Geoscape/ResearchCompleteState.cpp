@@ -17,15 +17,15 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ResearchCompleteState.h"
-#include "../Engine/Game.h"
-#include "../Engine/LocalizedText.h"
-#include "../Mod/Mod.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Mod/RuleResearch.h"
-#include "../Ufopaedia/Ufopaedia.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Engine/LocalizedText.h"
+#include "Mod/Mod.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Mod/RuleResearch.h"
+#include "Ufopaedia/Ufopaedia.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

@@ -23,11 +23,11 @@
 #include "Pathfinding.h"
 #include "Map.h"
 #include "Camera.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Savegame/Tile.h"
-#include "../Engine/Options.h"
-#include "../Mod/Armor.h"
+#include "Savegame/BattleUnit.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Savegame/Tile.h"
+#include "Engine/Options.h"
+#include "Mod/Armor.h"
 
 namespace OpenXcom
 {

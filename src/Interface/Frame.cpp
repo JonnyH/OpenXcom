@@ -17,7 +17,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "Frame.h"
-#include "../Engine/Palette.h"
+#include "Engine/Palette.h"
 
 namespace OpenXcom
 {

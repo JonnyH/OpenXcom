@@ -23,7 +23,7 @@
 #include <SDL_gfxPrimitives.h>
 #include <SDL_image.h>
 #include <SDL_endian.h>
-#include "../lodepng.h"
+#include "lodepng.h"
 #include "Palette.h"
 #include "Exception.h"
 #include "Logger.h"

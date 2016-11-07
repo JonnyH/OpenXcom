@@ -19,15 +19,15 @@
 #include "Ufo.h"
 #include <assert.h>
 #include <algorithm>
-#include "../fmath.h"
+#include "fmath.h"
 #include "Craft.h"
 #include "AlienMission.h"
-#include "../Engine/Exception.h"
-#include "../Engine/Language.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleUfo.h"
-#include "../Mod/UfoTrajectory.h"
-#include "../Mod/RuleAlienMission.h"
+#include "Engine/Exception.h"
+#include "Engine/Language.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleUfo.h"
+#include "Mod/UfoTrajectory.h"
+#include "Mod/RuleAlienMission.h"
 #include "SavedGame.h"
 #include "Waypoint.h"
 

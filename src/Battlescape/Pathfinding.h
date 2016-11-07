@@ -20,7 +20,7 @@
 #include <vector>
 #include "Position.h"
 #include "PathfindingNode.h"
-#include "../Mod/MapData.h"
+#include "Mod/MapData.h"
 
 namespace OpenXcom
 {

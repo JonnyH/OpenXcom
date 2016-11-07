@@ -17,11 +17,11 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ScrollBar.h"
-#include "../fmath.h"
+#include "fmath.h"
 #include <algorithm>
-#include "../Engine/Action.h"
+#include "Engine/Action.h"
 #include "TextList.h"
-#include "../Engine/Palette.h"
+#include "Engine/Palette.h"
 
 namespace OpenXcom
 {

@@ -18,7 +18,7 @@
  */
 #include "StatString.h"
 #include <vector>
-#include "../Engine/Language.h"
+#include "Engine/Language.h"
 
 namespace OpenXcom
 {

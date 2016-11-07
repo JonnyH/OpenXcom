@@ -18,7 +18,7 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "BattleState.h"
-#include "../Mod/RuleItem.h"
+#include "Mod/RuleItem.h"
 
 namespace OpenXcom
 {

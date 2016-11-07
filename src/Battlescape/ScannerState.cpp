@@ -18,16 +18,16 @@
  */
 #include "ScannerState.h"
 #include "ScannerView.h"
-#include "../Engine/InteractiveSurface.h"
-#include "../Engine/Game.h"
-#include "../Engine/Action.h"
-#include "../Engine/Timer.h"
-#include "../Engine/Screen.h"
-#include "../Engine/Options.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Mod/Mod.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/SavedBattleGame.h"
+#include "Engine/InteractiveSurface.h"
+#include "Engine/Game.h"
+#include "Engine/Action.h"
+#include "Engine/Timer.h"
+#include "Engine/Screen.h"
+#include "Engine/Options.h"
+#include "Savegame/BattleUnit.h"
+#include "Mod/Mod.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/SavedBattleGame.h"
 
 namespace OpenXcom
 {

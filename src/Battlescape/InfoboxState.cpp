@@ -17,13 +17,13 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "InfoboxState.h"
-#include "../Engine/Game.h"
-#include "../Engine/Timer.h"
-#include "../Interface/Text.h"
-#include "../Interface/Frame.h"
-#include "../Engine/Action.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/SavedBattleGame.h"
+#include "Engine/Game.h"
+#include "Engine/Timer.h"
+#include "Interface/Text.h"
+#include "Interface/Frame.h"
+#include "Engine/Action.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/SavedBattleGame.h"
 
 namespace OpenXcom
 {

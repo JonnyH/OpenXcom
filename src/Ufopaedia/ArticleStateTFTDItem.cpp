@@ -21,13 +21,13 @@
 #include <algorithm>
 #include "Ufopaedia.h"
 #include "ArticleStateTFTDItem.h"
-#include "../Mod/Mod.h"
-#include "../Mod/ArticleDefinition.h"
-#include "../Mod/RuleItem.h"
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextList.h"
+#include "Mod/Mod.h"
+#include "Mod/ArticleDefinition.h"
+#include "Mod/RuleItem.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextList.h"
 
 namespace OpenXcom
 {

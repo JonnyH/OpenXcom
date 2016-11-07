@@ -17,15 +17,15 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "../Mod/ArticleDefinition.h"
-#include "../Mod/Mod.h"
-#include "../Mod/RuleBaseFacility.h"
+#include "Mod/ArticleDefinition.h"
+#include "Mod/Mod.h"
+#include "Mod/RuleBaseFacility.h"
 #include "ArticleStateTFTD.h"
 #include "ArticleStateTFTDFacility.h"
-#include "../Engine/Game.h"
-#include "../Engine/Palette.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/TextList.h"
+#include "Engine/Game.h"
+#include "Engine/Palette.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/TextList.h"
 
 namespace OpenXcom
 {

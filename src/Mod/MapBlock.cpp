@@ -19,8 +19,8 @@
 #include "MapBlock.h"
 #include <sstream>
 #include <algorithm>
-#include "../Battlescape/Position.h"
-#include "../Engine/Exception.h"
+#include "Battlescape/Position.h"
+#include "Engine/Exception.h"
 
 namespace OpenXcom
 {

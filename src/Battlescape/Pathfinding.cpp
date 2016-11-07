@@ -20,11 +20,11 @@
 #include <algorithm>
 #include "Pathfinding.h"
 #include "PathfindingOpenSet.h"
-#include "../Savegame/SavedBattleGame.h"
-#include "../Savegame/Tile.h"
-#include "../Mod/Armor.h"
-#include "../Savegame/BattleUnit.h"
-#include "../Engine/Options.h"
+#include "Savegame/SavedBattleGame.h"
+#include "Savegame/Tile.h"
+#include "Mod/Armor.h"
+#include "Savegame/BattleUnit.h"
+#include "Engine/Options.h"
 #include "BattlescapeGame.h"
 
 namespace OpenXcom

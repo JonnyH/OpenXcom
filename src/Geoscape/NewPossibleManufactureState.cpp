@@ -17,16 +17,16 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "NewPossibleManufactureState.h"
-#include "../Engine/Game.h"
-#include "../Engine/LocalizedText.h"
-#include "../Mod/Mod.h"
-#include "../Interface/TextButton.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextList.h"
-#include "../Mod/RuleManufacture.h"
-#include "../Basescape/ManufactureState.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Engine/LocalizedText.h"
+#include "Mod/Mod.h"
+#include "Interface/TextButton.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextList.h"
+#include "Mod/RuleManufacture.h"
+#include "Basescape/ManufactureState.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {

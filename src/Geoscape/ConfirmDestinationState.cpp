@@ -17,18 +17,18 @@
  * along with OpenXcom.  If not, see <http://www.gnu.org/licenses/>.
  */
 #include "ConfirmDestinationState.h"
-#include "../Engine/Game.h"
-#include "../Mod/Mod.h"
-#include "../Engine/LocalizedText.h"
-#include "../Interface/Window.h"
-#include "../Interface/Text.h"
-#include "../Interface/TextButton.h"
-#include "../Savegame/SavedGame.h"
-#include "../Savegame/Craft.h"
-#include "../Savegame/Target.h"
-#include "../Savegame/Waypoint.h"
-#include "../Savegame/Base.h"
-#include "../Engine/Options.h"
+#include "Engine/Game.h"
+#include "Mod/Mod.h"
+#include "Engine/LocalizedText.h"
+#include "Interface/Window.h"
+#include "Interface/Text.h"
+#include "Interface/TextButton.h"
+#include "Savegame/SavedGame.h"
+#include "Savegame/Craft.h"
+#include "Savegame/Target.h"
+#include "Savegame/Waypoint.h"
+#include "Savegame/Base.h"
+#include "Engine/Options.h"
 
 namespace OpenXcom
 {
