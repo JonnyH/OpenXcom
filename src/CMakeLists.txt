@@ -448,7 +448,7 @@ if ( WIN32 )
   set ( system_libs ${basic_windows_libs} SDLmain ${static_flags} )
 endif ()
 target_link_libraries ( openxcom ${system_libs} ${SDLIMAGE_LIBRARY} ${SDLMIXER_LIBRARY} ${SDLGFX_LIBRARY} ${SDL_LIBRARY} ${OPENGL_gl_LIBRARY} debug ${YAMLCPP_LIBRARY_DEBUG} optimized ${YAMLCPP_LIBRARY} )
-target_include_directories ( openxcom PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
+include_directories ( ${CMAKE_CURRENT_SOURCE_DIR} )
 
 set ( bin_data_dirs TFTD UFO common standard )
 foreach ( binpath ${bin_data_dirs} )
