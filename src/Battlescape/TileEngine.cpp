@@ -358,7 +358,7 @@ bool TileEngine::calculateFOV(BattleUnit *unit)
  * @param currentUnit The watcher.
  * @return Approximately an eyeball voxel.
  */
-Position TileEngine::getSightOriginVoxel(BattleUnit *currentUnit)
+Position TileEngine::getSightOriginVoxel(const BattleUnit *currentUnit) const
 {
 	// determine the origin and target voxels for the raytrace
 	Position originVoxel;
@@ -389,7 +389,7 @@ Position TileEngine::getSightOriginVoxel(BattleUnit *currentUnit)
  * @param tile The tile to check for
  * @return True if visible.
  */
-bool TileEngine::visible(BattleUnit *currentUnit, Tile *tile)
+bool TileEngine::visible(BattleUnit *currentUnit, const Tile *tile) const
 {
 	// if there is no tile or no unit, we can't see it
 	if (!tile || !tile->getUnit())
@@ -534,7 +534,7 @@ int TileEngine::checkVoxelExposure(Position *originVoxel, Tile *tile, BattleUnit
  * @param potentialUnit is a hypothetical unit to draw a virtual line of fire for AI. if left blank, this function behaves normally.
  * @return True if the unit can be targetted.
  */
-bool TileEngine::canTargetUnit(Position *originVoxel, Tile *tile, Position *scanVoxel, BattleUnit *excludeUnit, BattleUnit *potentialUnit)
+bool TileEngine::canTargetUnit(const Position *originVoxel, const Tile *tile, Position *scanVoxel, const BattleUnit *excludeUnit, BattleUnit *potentialUnit) const
 {
 	Position targetVoxel = Position((tile->getPosition().x * 16) + 7, (tile->getPosition().y * 16) + 8, tile->getPosition().z * 24);
 	std::vector<Position> _trajectory;
@@ -632,7 +632,7 @@ bool TileEngine::canTargetUnit(Position *originVoxel, Tile *tile, Position *scan
  * @param excludeUnit Is self (not to hit self).
  * @return True if the tile can be targetted.
  */
-bool TileEngine::canTargetTile(Position *originVoxel, Tile *tile, int part, Position *scanVoxel, BattleUnit *excludeUnit)
+bool TileEngine::canTargetTile(const Position *originVoxel, const Tile *tile, int part, Position *scanVoxel, const BattleUnit *excludeUnit) const
 {
 	static int sliceObjectSpiral[82] = {8,8, 8,6, 10,6, 10,8, 10,10, 8,10, 6,10, 6,8, 6,6, //first circle
 		8,4, 10,4, 12,4, 12,6, 12,8, 12,10, 12,12, 10,12, 8,12, 6,12, 4,12, 4,10, 4,8, 4,6, 4,4, 6,4, //second circle
@@ -1547,7 +1547,7 @@ Tile *TileEngine::checkForTerrainExplosions()
  * @param type The type of power/damage.
  * @return Amount of blockage of this power.
  */
-int TileEngine::verticalBlockage(Tile *startTile, Tile *endTile, ItemDamageType type, bool skipObject)
+int TileEngine::verticalBlockage(const Tile *startTile, const Tile *endTile, ItemDamageType type, bool skipObject) const
 {
 	int block = 0;
 
@@ -1604,7 +1604,7 @@ int TileEngine::verticalBlockage(Tile *startTile, Tile *endTile, ItemDamageType 
  * @param type The type of power/damage.
  * @return Amount of blockage.
  */
-int TileEngine::horizontalBlockage(Tile *startTile, Tile *endTile, ItemDamageType type, bool skipObject)
+int TileEngine::horizontalBlockage(const Tile *startTile, const Tile *endTile, ItemDamageType type, bool skipObject) const
 {
 	static const Position oneTileNorth = Position(0, -1, 0);
 	static const Position oneTileEast = Position(1, 0, 0);
@@ -1773,7 +1773,7 @@ int TileEngine::horizontalBlockage(Tile *startTile, Tile *endTile, ItemDamageTyp
  * @param direction Direction the power travels.
  * @return Amount of blockage.
  */
-int TileEngine::blockage(Tile *tile, const int part, ItemDamageType type, int direction, bool checkingFromOrigin)
+int TileEngine::blockage(const Tile *tile, const int part, ItemDamageType type, int direction, bool checkingFromOrigin) const
 {
 	int blockage = 0;
 
@@ -2138,7 +2138,7 @@ int TileEngine::closeUfoDoors()
  * @param excludeAllBut [Optional] The only unit to be considered for ray hits.
  * @return the objectnumber(0-3) or unit(4) or out of map (5) or -1(hit nothing).
  */
-int TileEngine::calculateLine(Position origin, Position target, bool storeTrajectory, std::vector<Position> *trajectory, BattleUnit *excludeUnit, bool doVoxelCheck, bool onlyVisible, BattleUnit *excludeAllBut)
+int TileEngine::calculateLine(Position origin, Position target, bool storeTrajectory, std::vector<Position> *trajectory, const BattleUnit *excludeUnit, bool doVoxelCheck, bool onlyVisible, const BattleUnit *excludeAllBut) const
 {
 	int x, x0, x1, delta_x, step_x;
 	int y, y0, y1, delta_y, step_y;
@@ -2394,7 +2394,7 @@ int TileEngine::castedShade(Position voxel)
  * @return True if visible.
  */
 
-bool TileEngine::isVoxelVisible(Position voxel)
+bool TileEngine::isVoxelVisible(Position voxel) const
 {
 	int zstart = voxel.z+3; // slight Z adjust
 	if ((zstart/24)!=(voxel.z/24))
@@ -2423,7 +2423,7 @@ bool TileEngine::isVoxelVisible(Position voxel)
  * @param excludeAllBut If set, the only unit to be considered for ray hits.
  * @return The objectnumber(0-3) or unit(4) or out of map (5) or -1 (hit nothing).
  */
-int TileEngine::voxelCheck(Position voxel, BattleUnit *excludeUnit, bool excludeAllUnits, bool onlyVisible, BattleUnit *excludeAllBut)
+int TileEngine::voxelCheck(const Position voxel, const BattleUnit *excludeUnit, bool excludeAllUnits, bool onlyVisible, const BattleUnit *excludeAllBut) const
 {
 	if (_save->isBeforeGame())
 	{

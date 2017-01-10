@@ -45,7 +45,7 @@ private:
 	std::vector<Uint16> *_voxelData;
 	static const int heightFromCenter[11];
 	void addLight(Position center, int power, int layer);
-	int blockage(Tile *tile, const int part, ItemDamageType type, int direction = -1, bool checkingFromOrigin = false);
+	int blockage(const Tile *tile, const int part, ItemDamageType type, int direction = -1, bool checkingFromOrigin = false) const;
 	bool _personalLighting;
 public:
 	/// Creates a new TileEngine class.
@@ -77,13 +77,13 @@ public:
 	/// Closes ufo doors.
 	int closeUfoDoors();
 	/// Calculates a line trajectory.
-	int calculateLine(Position origin, Position target, bool storeTrajectory, std::vector<Position> *trajectory, BattleUnit *excludeUnit, bool doVoxelCheck = true, bool onlyVisible = false, BattleUnit *excludeAllBut = 0);
+	int calculateLine(Position origin, Position target, bool storeTrajectory, std::vector<Position> *trajectory, const BattleUnit *excludeUnit, bool doVoxelCheck = true, bool onlyVisible = false, const BattleUnit *excludeAllBut = 0) const;
 	/// Calculates a parabola trajectory.
 	int calculateParabola(Position origin, Position target, bool storeTrajectory, std::vector<Position> *trajectory, BattleUnit *excludeUnit, double curvature, const Position delta);
 	/// Gets the origin voxel of a unit's eyesight.
-	Position getSightOriginVoxel(BattleUnit *currentUnit);
+	Position getSightOriginVoxel(const BattleUnit *currentUnit) const;
 	/// Checks visibility of a unit on this tile.
-	bool visible(BattleUnit *currentUnit, Tile *tile);
+	bool visible(BattleUnit *currentUnit, const Tile *tile) const;
 	/// Turn XCom soldier's personal lighting on or off.
 	void togglePersonalLighting();
 	/// Checks the distance between two positions.
@@ -91,9 +91,9 @@ public:
 	/// Checks the distance squared between two positions.
 	int distanceSq(Position pos1, Position pos2, bool considerZ = true) const;
 	/// Checks the horizontal blockage of a tile.
-	int horizontalBlockage(Tile *startTile, Tile *endTile, ItemDamageType type, bool skipObject = false);
+	int horizontalBlockage(const Tile *startTile, const Tile *endTile, ItemDamageType type, bool skipObject = false) const;
 	/// Checks the vertical blockage of a tile.
-	int verticalBlockage(Tile *startTile, Tile *endTile, ItemDamageType type, bool skipObject = false);
+	int verticalBlockage(const Tile *startTile, const Tile *endTile, ItemDamageType type, bool skipObject = false) const;
 	/// Applies gravity to anything that occupy this tile.
 	Tile *applyGravity(Tile *t);
 	/// Returns melee validity between two units.
@@ -105,15 +105,15 @@ public:
 	/// Checks a unit's % exposure on a tile.
 	int checkVoxelExposure(Position *originVoxel, Tile *tile, BattleUnit *excludeUnit, BattleUnit *excludeAllBut);
 	/// Checks validity for targetting a unit.
-	bool canTargetUnit(Position *originVoxel, Tile *tile, Position *scanVoxel, BattleUnit *excludeUnit, BattleUnit *potentialUnit = 0);
+	bool canTargetUnit(const Position *originVoxel, const Tile *tile, Position *scanVoxel, const BattleUnit *excludeUnit, BattleUnit *potentialUnit = 0) const;
 	/// Check validity for targetting a tile.
-	bool canTargetTile(Position *originVoxel, Tile *tile, int part, Position *scanVoxel, BattleUnit *excludeUnit);
+	bool canTargetTile(const Position *originVoxel, const Tile *tile, int part, Position *scanVoxel, const BattleUnit *excludeUnit) const;
 	/// Calculates the z voxel for shadows.
 	int castedShade(Position voxel);
 	/// Checks the visibility of a given voxel.
-	bool isVoxelVisible(Position voxel);
+	bool isVoxelVisible(Position voxel) const;
 	/// Checks what type of voxel occupies this space.
-	int voxelCheck(Position voxel, BattleUnit *excludeUnit, bool excludeAllUnits = false, bool onlyVisible = false, BattleUnit *excludeAllBut = 0);
+	int voxelCheck(const Position voxel, const BattleUnit *excludeUnit, bool excludeAllUnits = false, bool onlyVisible = false, const BattleUnit *excludeAllBut = 0) const;
 	/// Blows this tile up.
 	bool detonate(Tile* tile);
 	/// Validates a throwing action.
