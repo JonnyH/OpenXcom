@@ -85,7 +85,13 @@
 
 #ifdef __GNUC__
 #if (__i386__ || __x86_64__)
+
+/* GCC's cpuid.h doesn't have any header guards */
+#ifndef CPUID_H
+#define CPUID_H
 #include <cpuid.h>
+#endif
+
 #endif
 #endif
 
@@ -115,6 +121,9 @@
 #include <SDL_thread.h>
 #include <SDL_types.h>
 #include <SDL_video.h>
+#ifdef None
+#undef None
+#endif
 #include <yaml-cpp/yaml.h>
 #include "./dirent.h"
 #include "./lodepng.h"

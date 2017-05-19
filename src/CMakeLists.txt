@@ -1,3 +1,5 @@
+include(cotire)
+
 set ( root_src
   lodepng.cpp
   main.cpp
@@ -454,6 +456,9 @@ if (${CMAKE_SYSTEM_NAME} MATCHES FreeBSD OR ${CMAKE_SYSTEM_NAME} MATCHES NetBSD 
 endif ()
 
 target_link_libraries ( openxcom ${system_libs} ${SDLIMAGE_LIBRARY} ${SDLMIXER_LIBRARY} ${SDLGFX_LIBRARY} ${SDL_LIBRARY} ${OPENGL_gl_LIBRARY} debug ${YAMLCPP_LIBRARY_DEBUG} optimized ${YAMLCPP_LIBRARY} )
+
+set_target_properties(openxcom PROPERTIES COTIRE_CXX_PREFIX_HEADER_INIT pch.h)
+cotire(openxcom)
 
 set ( bin_data_dirs TFTD UFO common standard )
 foreach ( binpath ${bin_data_dirs} )

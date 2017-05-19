@@ -48,7 +48,11 @@
 
 #ifdef __GNUC__
 #if (__i386__ || __x86_64__)
+/* GCC's cpuid.h doesn't have any include guards */
+#ifndef CPUID_H
+#define CPUID_H
 #include <cpuid.h>
+#endif
 #endif
 #endif
 
