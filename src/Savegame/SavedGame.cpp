@@ -1169,17 +1169,17 @@ void SavedGame::getAvailableResearchProjects (std::vector<RuleResearch *> & proj
 			}
 		}
 
+		// Hide hidden topics / fake researches
+		if(research->getCost() == 0 || research->getPoints() == 0)
+		{
+			continue;
+		}
+
 		// Check for reresearchable topics and keep them on the list
 		// as long as they have something to discover
 		if(isResearched(research->getName()))
 		{
 			bool removeFromMenu = true;
-			// Hide hidden topics / fake researches
-			// Do not do these checks on them and remove them from list in any case
-			if(research->getCost() == 0 || research->getPoints() == 0)
-			{
-				continue;
-			}
 
 			if(!research->getGetOneFree().empty())
 			{
