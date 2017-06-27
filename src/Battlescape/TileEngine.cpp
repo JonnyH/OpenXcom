@@ -46,7 +46,7 @@
 namespace OpenXcom
 {
 
-const int TileEngine::heightFromCenter[11] = {0,-2,+2,-4,+4,-6,+6,-8,+8,-12,+12};
+const int TileEngine::heightFromCenter[13] = {0,+1,-1,+2,-2,+4,-4,+6,-6,+8,-8,+11,-11};
 
 /**
  * Sets up a TileEngine.
@@ -584,7 +584,7 @@ bool TileEngine::canTargetUnit(Position *originVoxel, Tile *tile, Position *scan
 	targetMaxHeight += heightRange;
 	targetCenterHeight=(targetMaxHeight+targetMinHeight)/2;
 	heightRange/=2;
-	if (heightRange>10) heightRange=10;
+	if (heightRange>12) heightRange=12;
 	if (heightRange<=0) heightRange=0;
 
 	// scan ray from top to bottom  plus different parts of target cylinder
@@ -605,8 +605,8 @@ bool TileEngine::canTargetUnit(Position *originVoxel, Tile *tile, Position *scan
 					for (int y = 0; y <= targetSize; ++y)
 					{
 						//voxel of hit must be inside of scanned box
-						if (_trajectory.at(0).x/16 == (scanVoxel->x/16) + x + xOffset &&
-							_trajectory.at(0).y/16 == (scanVoxel->y/16) + y + yOffset &&
+						if (_trajectory.at(0).x/16 == (tile->getPosition().x) + x + xOffset &&
+							_trajectory.at(0).y/16 == (tile->getPosition().y) + y + yOffset &&
 							_trajectory.at(0).z >= targetMinHeight &&
 							_trajectory.at(0).z <= targetMaxHeight)
 						{
@@ -638,8 +638,8 @@ bool TileEngine::canTargetTile(Position *originVoxel, Tile *tile, int part, Posi
 	static int sliceObjectSpiral[82] = {8,8, 8,6, 10,6, 10,8, 10,10, 8,10, 6,10, 6,8, 6,6, //first circle
 		8,4, 10,4, 12,4, 12,6, 12,8, 12,10, 12,12, 10,12, 8,12, 6,12, 4,12, 4,10, 4,8, 4,6, 4,4, 6,4, //second circle
 		8,1, 12,1, 15,1, 15,4, 15,8, 15,12, 15,15, 12,15, 8,15, 4,15, 1,15, 1,12, 1,8, 1,4, 1,1, 4,1}; //third circle
-	static int westWallSpiral[14] = {0,7, 0,9, 0,6, 0,11, 0,4, 0,13, 0,2};
-	static int northWallSpiral[14] = {7,0, 9,0, 6,0, 11,0, 4,0, 13,0, 2,0};
+	static int westWallSpiral[18] = {0,7, 0,9, 0,6, 0,11, 0,4, 0,13, 0,2, 0,15, 0,0};
+	static int northWallSpiral[18] = {7,0, 9,0, 6,0, 11,0, 4,0, 13,0, 2,0, 15,0, 0,0};
 
 	Position targetVoxel = Position((tile->getPosition().x * 16), (tile->getPosition().y * 16), tile->getPosition().z * 24);
 	std::vector<Position> _trajectory;
@@ -647,8 +647,7 @@ bool TileEngine::canTargetTile(Position *originVoxel, Tile *tile, int part, Posi
 	int *spiralArray;
 	int spiralCount;
 
-	int minZ = 0, maxZ = 0;
-	bool minZfound = false, maxZfound = false;
+	int minZ = 0, maxZ = 1;
 
 	if (part == O_OBJECT)
 	{
@@ -659,81 +658,55 @@ bool TileEngine::canTargetTile(Position *originVoxel, Tile *tile, int part, Posi
 	if (part == O_NORTHWALL)
 	{
 		spiralArray = northWallSpiral;
-		spiralCount = 7;
+		spiralCount = 9;
 	}
 	else
 	if (part == O_WESTWALL)
 	{
 		spiralArray = westWallSpiral;
-		spiralCount = 7;
+		spiralCount = 9;
 	}
 	else if (part == O_FLOOR)
 	{
 		spiralArray = sliceObjectSpiral;
 		spiralCount = 41;
-		minZfound = true; minZ=0;
-		maxZfound = true; maxZ=0;
 	}
 	else
 	{
-		return false;
+		spiralArray = sliceObjectSpiral;
+		spiralCount = 41;
+		part = 5;
+		minZ = 0;
+		maxZ = 23;
 	}
 
 	voxelCheckFlush();
-// find out height range
-
-	if (!minZfound)
+	// find out height range
+	if (part < 5)
 	{
-		for (int j = 1; j < 12; ++j)
+		MapData *mp = tile->getMapData(part);
+		for (int j = 0; j < 12; ++j)
 		{
-			if (minZfound) break;
-			for (int i = 0; i < spiralCount; ++i)
+			if (mp->getLoftID(j)!=0) // only 0th LOFT is empty
 			{
-				int tX = spiralArray[i*2];
-				int tY = spiralArray[i*2+1];
-				if (voxelCheck(Position(targetVoxel.x + tX, targetVoxel.y + tY, targetVoxel.z + j*2),0,true) == part) //bingo
-				{
-					if (!minZfound)
-					{
-						minZ = j*2;
-						minZfound = true;
-						break;
-					}
-				}
+				minZ = j*2;
+				break;
+			}
+		}
+		for (int j = 11; j >= 0; --j)
+		{
+			if (mp->getLoftID(j)!=0)
+			{
+				maxZ = j*2+1;
+				break;
 			}
 		}
 	}
-
-	if (!minZfound) return false;//empty object!!!
-
-	if (!maxZfound)
-	{
-		for (int j = 10; j >= 0; --j)
-		{
-			if (maxZfound) break;
-			for (int i = 0; i < spiralCount; ++i)
-			{
-				int tX = spiralArray[i*2];
-				int tY = spiralArray[i*2+1];
-				if (voxelCheck(Position(targetVoxel.x + tX, targetVoxel.y + tY, targetVoxel.z + j*2),0,true) == part) //bingo
-				{
-					if (!maxZfound)
-					{
-						maxZ = j*2;
-						maxZfound = true;
-						break;
-					}
-				}
-			}
-		}
-	}
-
-	if (!maxZfound) return false;//it's impossible to get there
 
 	if (minZ > maxZ) minZ = maxZ;
-	int rangeZ = maxZ - minZ;
-	if (rangeZ>10) rangeZ = 10; //as above, clamping height range to prevent buffer overflow
-	int centerZ = (maxZ + minZ)/2;
+	int rangeZ = (maxZ - minZ)/2+1; //FIX 30.10.2016
+	if (rangeZ>12) rangeZ = 12; //as above, clamping height range to prevent buffer overflow
+	int centerZ = (maxZ + minZ)/2+1;
 
 	for (int j = 0; j <= rangeZ; ++j)
 	{
