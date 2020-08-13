@@ -217,8 +217,8 @@ void FlcPlayer::play(bool skipLastFrame)
 	{
 		if (_frameCallBack)
 			(*_frameCallBack)();
-		else // TODO: support both, in the case the callback is not some audio?
-			decodeAudio(2);
+
+		decodeAudio(2);
 
 		if (!shouldQuit())
 			decodeVideo(skipLastFrame);
@@ -301,6 +301,11 @@ void FlcPlayer::decodeAudio(int frames)
 
 	int audioFramesFound = 0;
 
+	if (!_useInternalAudio)
+	{
+		return;
+	}
+
 	while (audioFramesFound < frames && !isEndOfFile(_audioFrameData))
 	{
 		if (!isValidFrame(_audioFrameData, _audioFrameSize, _audioFrameType))
@@ -358,7 +363,7 @@ void FlcPlayer::decodeVideo(bool skipLastFrame)
 			{
 				delay = _delayOverride > 0 ? _delayOverride : _headerSpeed * (1000.0 / 70.0);
 			}
-			else if (_useInternalAudio && !_frameCallBack) // this means TFTD videos are playing
+			else if (_hasAudio) // this means TFTD videos are playing
 			{
 				delay = _videoDelay;
 			}
